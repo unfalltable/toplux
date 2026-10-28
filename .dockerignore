@@ -1,0 +1,13 @@
+node_modules
+.data
+.tools
+.closeai-attachments
+artifacts
+.git
+.env
+.env.*
+*.log
+tests
+docs
+apps/client_flutter
+dist

@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "apps/api/src",
+    "outDir": "dist/api",
+    "noEmit": false,
+    "sourceMap": false
+  },
+  "include": [
+    "apps/api/src/**/*.ts"
+  ],
+  "exclude": [
+    "tests",
+    "apps/admin_web",
+    "node_modules"
+  ]
+}

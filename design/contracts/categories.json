@@ -1,0 +1,326 @@
+{
+  "version": "1.1.0",
+  "description": "40个一级品类；保留既有ID，主品类由平台维护。图鉴编辑品类与品牌助力主品类独立。",
+  "categories": [
+    {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "slug": "watches",
+      "name": "手表",
+      "iconKey": "watch",
+      "sortOrder": 10,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "slug": "bags",
+      "name": "箱包",
+      "iconKey": "shopping_bag",
+      "sortOrder": 20,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000003",
+      "slug": "jewelry",
+      "name": "珠宝",
+      "iconKey": "diamond",
+      "sortOrder": 30,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000004",
+      "slug": "clothing",
+      "name": "服装",
+      "iconKey": "checkroom",
+      "sortOrder": 40,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000005",
+      "slug": "shoes",
+      "name": "鞋",
+      "iconKey": "steps",
+      "sortOrder": 50,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000006",
+      "slug": "accessories",
+      "name": "配饰",
+      "iconKey": "styler",
+      "sortOrder": 60,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000007",
+      "slug": "fragrance",
+      "name": "香水",
+      "iconKey": "local_florist",
+      "sortOrder": 70,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000008",
+      "slug": "beauty",
+      "name": "美妆护肤",
+      "iconKey": "face",
+      "sortOrder": 80,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000009",
+      "slug": "cars",
+      "name": "汽车",
+      "iconKey": "directions_car",
+      "sortOrder": 90,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000010",
+      "slug": "motorcycles",
+      "name": "摩托车",
+      "iconKey": "two_wheeler",
+      "sortOrder": 100,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000011",
+      "slug": "bicycles",
+      "name": "自行车",
+      "iconKey": "pedal_bike",
+      "sortOrder": 110,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000012",
+      "slug": "yachts",
+      "name": "游艇",
+      "iconKey": "sailing",
+      "sortOrder": 120,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000013",
+      "slug": "wine-spirits",
+      "name": "酒",
+      "iconKey": "wine_bar",
+      "sortOrder": 130,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000014",
+      "slug": "phones",
+      "name": "手机",
+      "iconKey": "smartphone",
+      "sortOrder": 140,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000015",
+      "slug": "computers",
+      "name": "电脑",
+      "iconKey": "computer",
+      "sortOrder": 150,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000016",
+      "slug": "headphones",
+      "name": "耳机",
+      "iconKey": "headphones",
+      "sortOrder": 160,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000017",
+      "slug": "audio",
+      "name": "音响",
+      "iconKey": "speaker",
+      "sortOrder": 170,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000018",
+      "slug": "cameras",
+      "name": "相机",
+      "iconKey": "photo_camera",
+      "sortOrder": 180,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000019",
+      "slug": "televisions",
+      "name": "电视",
+      "iconKey": "tv",
+      "sortOrder": 190,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000020",
+      "slug": "appliances",
+      "name": "家电",
+      "iconKey": "kitchen",
+      "sortOrder": 200,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000021",
+      "slug": "furniture",
+      "name": "家具",
+      "iconKey": "chair",
+      "sortOrder": 210,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000022",
+      "slug": "stationery",
+      "name": "文具",
+      "iconKey": "edit",
+      "sortOrder": 220,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000023",
+      "slug": "sports",
+      "name": "运动装备",
+      "iconKey": "sports_tennis",
+      "sortOrder": 230,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000024",
+      "slug": "outdoor",
+      "name": "户外装备",
+      "iconKey": "landscape",
+      "sortOrder": 240,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000025",
+      "slug": "eyewear",
+      "name": "眼镜",
+      "iconKey": "glasses",
+      "sortOrder": 250,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000026",
+      "slug": "small-leather",
+      "name": "小皮具",
+      "iconKey": "wallet",
+      "sortOrder": 260,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000027",
+      "slug": "scarves",
+      "name": "丝巾与披肩",
+      "iconKey": "scarf",
+      "sortOrder": 270,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000028",
+      "slug": "hats",
+      "name": "帽饰",
+      "iconKey": "hat",
+      "sortOrder": 280,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000029",
+      "slug": "travel-goods",
+      "name": "旅行用品",
+      "iconKey": "luggage",
+      "sortOrder": 290,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000030",
+      "slug": "home-fragrance",
+      "name": "家居香氛",
+      "iconKey": "candle",
+      "sortOrder": 300,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000031",
+      "slug": "tableware-crystal",
+      "name": "餐瓷与水晶",
+      "iconKey": "glass",
+      "sortOrder": 310,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000032",
+      "slug": "home-textiles",
+      "name": "家纺床品",
+      "iconKey": "bed",
+      "sortOrder": 320,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000033",
+      "slug": "lighting",
+      "name": "灯饰",
+      "iconKey": "lamp",
+      "sortOrder": 330,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000034",
+      "slug": "art-collectibles",
+      "name": "艺术收藏",
+      "iconKey": "palette",
+      "sortOrder": 340,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000035",
+      "slug": "musical-instruments",
+      "name": "乐器",
+      "iconKey": "piano",
+      "sortOrder": 350,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000036",
+      "slug": "tea-coffee",
+      "name": "精品茶咖",
+      "iconKey": "coffee",
+      "sortOrder": 360,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000037",
+      "slug": "luxury-hotels",
+      "name": "高端酒店",
+      "iconKey": "hotel",
+      "sortOrder": 370,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000038",
+      "slug": "luxury-travel",
+      "name": "度假旅行",
+      "iconKey": "compass",
+      "sortOrder": 380,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000039",
+      "slug": "private-aviation",
+      "name": "私人航空",
+      "iconKey": "plane",
+      "sortOrder": 390,
+      "active": true
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000040",
+      "slug": "fine-food",
+      "name": "美食与巧克力",
+      "iconKey": "cake",
+      "sortOrder": 400,
+      "active": true
+    }
+  ]
+}

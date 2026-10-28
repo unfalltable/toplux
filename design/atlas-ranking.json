@@ -1,0 +1,4457 @@
+{
+  "version": 2,
+  "asOf": "2026-10-28",
+  "method": "仅在同品类内参考品牌历史积淀、代表作品、稀缺与定制、工艺及圈层认知划分层级。同层顺序为编辑阅读建议，不是公认结论；不以助力金额、广告费或单件最高价决定。",
+  "categories": [
+    {
+      "slug": "watches",
+      "scope": "LUXURY",
+      "note": "复杂机械、独立制表与大众知名度各有标准；这里按制表传统和高端代表作安排阅读顺序，不按二手行情排序。",
+      "items": [
+        {
+          "name": "百达翡丽",
+          "english": "Patek Philippe",
+          "tier": "殿堂级",
+          "reason": "以复杂功能、传统制表与收藏语境为核心，适合作为传统高级制表的首组参考。",
+          "story": "百达翡丽以机械腕表及复杂功能构建品牌叙事，作品横跨正装表与运动表。认识它应从不同系列的结构、风格和佩戴场合入手。",
+          "products": [
+            {
+              "name": "Grand Complications 超级复杂功能",
+              "description": "观察万年历、计时等功能怎样组织在表盘上。"
+            },
+            {
+              "name": "Calatrava",
+              "description": "从简洁正装表理解比例与传统制表语言。"
+            }
+          ],
+          "url": "https://www.patek.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          },
+          "character": {
+            "headline": "收藏语境里的制表分量。",
+            "signature": "复杂功能、Calatrava 的正装比例与传统机械叙事，更容易在熟悉高级制表的人之间形成共鸣。",
+            "audience": "重视制表传统、家族叙事与收藏文化的腕表爱好者。",
+            "expression": "表达偏克制，欣赏往往来自了解系列、机芯和佩戴者选择的人。"
+          }
+        },
+        {
+          "name": "江诗丹顿",
+          "english": "Vacheron Constantin",
+          "tier": "殿堂级",
+          "reason": "传统制表、复杂机芯和定制作品突出；与同层品牌的偏好取决于具体系列。",
+          "story": "江诗丹顿的产品涵盖经典正装、复杂功能及运动风格。其设计强调表壳、表盘和机芯装饰之间的整体关系。",
+          "products": [
+            {
+              "name": "Traditionnelle 传袭",
+              "description": "传统正装与复杂功能的代表产品线。"
+            },
+            {
+              "name": "Overseas 纵横四海",
+              "description": "以旅行和运动风格切入品牌的日常佩戴面。"
+            }
+          ],
+          "url": "https://www.vacheron-constantin.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "朗格",
+          "english": "A. Lange & Söhne",
+          "tier": "殿堂级",
+          "reason": "德国高级制表与机芯细节形成鲜明识别，更依赖腕表爱好者的知识。",
+          "story": "朗格以德国制表语言、机芯布局与精细装饰建立辨识度。不对称表盘和复杂功能是理解其作品的两个入口。",
+          "products": [
+            {
+              "name": "LANGE 1",
+              "description": "偏心布局与大日历构成鲜明的设计线索。"
+            },
+            {
+              "name": "ZEITWERK",
+              "description": "以机械数字显示呈现不同于传统指针的时间阅读方式。"
+            }
+          ],
+          "url": "https://www.alange-soehne.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "爱彼",
+          "english": "Audemars Piguet",
+          "tier": "殿堂级",
+          "reason": "高级运动腕表辨识强，也有复杂制表积累；标志性造型的社交表达更直接。",
+          "story": "爱彼将机械制表与鲜明的表壳设计结合。Royal Oak 系列让一体式金属表链与几何表圈成为重要识别线索。",
+          "products": [
+            {
+              "name": "Royal Oak 皇家橡树",
+              "description": "八角表圈与一体式表链是主要视觉特征。"
+            },
+            {
+              "name": "Code 11.59",
+              "description": "从另一种表壳结构观察品牌的当代制表表达。"
+            }
+          ],
+          "url": "https://www.audemarspiguet.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          },
+          "character": {
+            "headline": "几何轮廓，鲜明的腕间暗号。",
+            "signature": "皇家橡树的八角表圈、螺钉与一体式表链，建立了高度一致的高级运动腕表语言。",
+            "audience": "喜欢设计辨识度、现代社交与高级运动腕表的人。",
+            "expression": "造型本身承担身份表达，腕表圈与时装语境都能读出不同层次。"
+          }
+        },
+        {
+          "name": "劳力士",
+          "english": "Rolex",
+          "tier": "奢华级",
+          "reason": "广泛辨识与日常佩戴语境突出；大众知名度不等同于复杂制表的层级。",
+          "story": "劳力士以蚝式腕表及专业工具表叙事建立产品体系。不同系列分别指向潜水、旅行、正装和日常佩戴场景。",
+          "products": [
+            {
+              "name": "Submariner 潜航者",
+              "description": "旋转外圈与潜水工具表外观构成主要识别。"
+            },
+            {
+              "name": "Day-Date 星期日历型",
+              "description": "日历与星期显示形成较明确的正式社交语境。"
+            }
+          ],
+          "url": "https://www.rolex.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "腕间，鲜明的成就符号。",
+            "signature": "皇冠标识、蚝式表壳与潜航者、星期日历等经典系列，把品牌名称转化为可见的社交线索。",
+            "audience": "偏爱清晰品牌归属、商务体面与经典运动腕表的人。",
+            "expression": "辨识度较直接，适合希望腕表被注意到的正式与日常场景。"
+          }
+        },
+        {
+          "name": "欧米茄",
+          "english": "Omega",
+          "tier": "高端级",
+          "reason": "超霸与海马把登月叙事、运动气质和广泛辨识度结合，是更容易被大众读懂的高级腕表符号。",
+          "story": "超霸与海马把登月叙事、运动气质和广泛辨识度结合，是更容易被大众读懂的高级腕表符号。",
+          "products": [
+            {
+              "name": "Speedmaster",
+              "description": "Omega 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Seamaster",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.omegawatches.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "卡地亚",
+          "english": "Cartier",
+          "tier": "奢华级",
+          "reason": "坦克与山度士把珠宝世家的审美带进腕间；造型辨识和社交场合的优雅感，比复杂功能更突出。",
+          "story": "坦克与山度士把珠宝世家的审美带进腕间；造型辨识和社交场合的优雅感，比复杂功能更突出。",
+          "products": [
+            {
+              "name": "Tank",
+              "description": "Cartier 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Santos de Cartier",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.cartier.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "珠宝世家的锋芒与优雅。",
+            "signature": "豹、LOVE 的螺钉元素、Tank 与 Santos 的表壳轮廓，把装饰艺术浓缩成可识别的日常符号。",
+            "audience": "重视珠宝礼赠、纪念意义和正式社交形象的人。",
+            "expression": "同一品牌可以表达利落、浪漫或力量感，具体系列决定被看见的方式。"
+          }
+        },
+        {
+          "name": "积家",
+          "english": "Jaeger-LeCoultre",
+          "tier": "奢华级",
+          "reason": "翻转表壳是鲜明的风格暗号，机械制表传统更容易在懂表的人之间形成共鸣，表达克制的文化品位。",
+          "story": "翻转表壳是鲜明的风格暗号，机械制表传统更容易在懂表的人之间形成共鸣，表达克制的文化品位。",
+          "products": [
+            {
+              "name": "Reverso",
+              "description": "Jaeger-LeCoultre 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Master Ultra Thin",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.jaeger-lecoultre.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "万国",
+          "english": "IWC Schaffhausen",
+          "tier": "高端级",
+          "reason": "飞行员与葡萄牙系列形成清楚的商务和机械风格，适合希望有存在感、又不依赖珠宝装饰的腕表表达。",
+          "story": "飞行员与葡萄牙系列形成清楚的商务和机械风格，适合希望有存在感、又不依赖珠宝装饰的腕表表达。",
+          "products": [
+            {
+              "name": "Portugieser",
+              "description": "IWC Schaffhausen 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Pilot’s Watches",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.iwc.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "百年灵",
+          "english": "Breitling",
+          "tier": "高端级",
+          "reason": "航空计时语言和醒目表盘提供外显的机械气场，在运动、驾驶与航空兴趣人群中具有清晰辨识。",
+          "story": "航空计时语言和醒目表盘提供外显的机械气场，在运动、驾驶与航空兴趣人群中具有清晰辨识。",
+          "products": [
+            {
+              "name": "Navitimer",
+              "description": "Breitling 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Chronomat",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.breitling.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "帝舵",
+          "english": "Tudor",
+          "tier": "进阶级",
+          "reason": "碧湾系列提供复古运动符号和清晰品牌归属，是进入高级运动腕表语境的进阶选择，定位与劳力士区分。",
+          "story": "碧湾系列提供复古运动符号和清晰品牌归属，是进入高级运动腕表语境的进阶选择，定位与劳力士区分。",
+          "products": [
+            {
+              "name": "Black Bay",
+              "description": "Tudor 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Pelagos",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.tudorwatch.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "bags",
+      "scope": "LUXURY",
+      "note": "按皮具工艺、代表廓形及品牌文化分层；同一品牌不同材质和系列不可一概而论。",
+      "items": [
+        {
+          "name": "爱马仕",
+          "english": "Hermès",
+          "tier": "殿堂级",
+          "reason": "皮具传统、经典廓形与稀缺体验共同形成强烈身份符号，是本品类首组参考。",
+          "story": "爱马仕围绕皮具、丝巾和生活用品构建工艺世界。Kelly 与 Birkin 等廓形在皮具爱好者之间具有较强辨识。",
+          "products": [
+            {
+              "name": "Kelly",
+              "description": "从结构、提手和开合方式理解经典廓形。"
+            },
+            {
+              "name": "Birkin",
+              "description": "不同尺寸与材质带来不同使用和表达方式。"
+            }
+          ],
+          "url": "https://www.hermes.com/us/en/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          },
+          "character": {
+            "headline": "经典皮具里的身份暗号。",
+            "signature": "Kelly 与 Birkin 的结构、提手和五金比例，以及丝巾的图案语言，让熟悉品牌的人从细节读懂选择。",
+            "audience": "偏爱经典皮具、工艺传统和克制生活方式的人。",
+            "expression": "可以是低标识的从容，也可以通过经典廓形形成很明确的品牌归属。"
+          }
+        },
+        {
+          "name": "香奈儿",
+          "english": "CHANEL",
+          "tier": "奢华级",
+          "reason": "菱格纹、链条与双 C 的视觉语言突出，较适合需要被认出的经典穿搭。",
+          "story": "香奈儿将时装语言延伸至手袋，绗缝皮革与链条是常见线索。不同年代和系列的造型差异值得单独理解。",
+          "products": [
+            {
+              "name": "经典手袋",
+              "description": "绗缝和链条组合是核心识别线索。"
+            },
+            {
+              "name": "2.55 手袋",
+              "description": "可从锁扣和链条细节比较与其他系列的区别。"
+            }
+          ],
+          "url": "https://www.chanel.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "把时装语言，带入每一次出场。",
+            "signature": "双 C、菱格纹、链条和斜纹软呢，构成跨越手袋、配饰与服装的完整视觉语言。",
+            "audience": "希望穿搭传达经典时装身份、女性风格与正式感的人。",
+            "expression": "大众辨识较强，经典手袋与套装适合成为造型中可见的品牌标记。"
+          }
+        },
+        {
+          "name": "迪奥",
+          "english": "Dior",
+          "tier": "奢华级",
+          "reason": "以时装屋文化、藤格纹和标志性手袋建立身份表达，风格更偏时装与仪式感。",
+          "story": "迪奥的手袋与高级时装叙事相连，藤格纹、字母挂饰及独特廓形构成识别。不同系列表达的正式程度并不相同。",
+          "products": [
+            {
+              "name": "Lady Dior",
+              "description": "藤格纹与字母挂饰是主要识别线索。"
+            },
+            {
+              "name": "Saddle 马鞍包",
+              "description": "以不对称廓形形成更明显的造型表达。"
+            }
+          ],
+          "url": "https://www.dior.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "高级时装的仪式感。",
+            "signature": "藤格纹、字母挂饰、Lady Dior 和 Bar Jacket，将巴黎时装屋的文化与作品轮廓连接。",
+            "audience": "偏爱精致装扮、礼服场合和巴黎时装叙事的人。",
+            "expression": "通过廓形与细节传达优雅和郑重感；不同系列的外显程度各有差异。"
+          }
+        },
+        {
+          "name": "路易威登",
+          "english": "Louis Vuitton",
+          "tier": "奢华级",
+          "reason": "旅行传统与 Monogram 的大众辨识突出，适合作为显性品牌表达的参考。",
+          "story": "路易威登从旅行箱与皮具语境延展出完整时装世界。Monogram 与 Damier 等图案让产品即使没有大字标识也容易被识别。",
+          "products": [
+            {
+              "name": "Speedy",
+              "description": "以旅行袋语言缩小为日常手袋。"
+            },
+            {
+              "name": "Capucines",
+              "description": "从皮革结构和相对克制的标识理解另一种表达。"
+            }
+          ],
+          "url": "https://www.louisvuitton.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "旅行传统，成为日常的品牌标记。",
+            "signature": "Monogram、Damier 和经典旅行箱的视觉记忆，让手袋、旅行用品与小皮具拥有连续的身份语言。",
+            "audience": "重视清晰辨识、旅行文化和完整品牌生活方式的人。",
+            "expression": "显性的图案表达更容易被识别，皮革系列则可以呈现相对克制的气场。"
+          }
+        },
+        {
+          "name": "德尔沃",
+          "english": "Delvaux",
+          "tier": "奢华级",
+          "reason": "偏小众的传统皮具语境，依靠结构与细节获得圈内认同，大众识别相对有限。",
+          "story": "Delvaux 围绕皮革手袋与结构设计建立产品世界。它更适合通过经典廓形而非反复出现的大标识表达偏好。",
+          "products": [
+            {
+              "name": "Brillant",
+              "description": "扣饰与结构化包身形成清晰视觉语言。"
+            },
+            {
+              "name": "Tempête",
+              "description": "从金属配件和包身结构观察另一种经典风格。"
+            }
+          ],
+          "url": "https://www.delvaux.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "古驰",
+          "english": "Gucci",
+          "tier": "高端级",
+          "reason": "竹节、双G与马衔扣形成密集的品牌暗号；它的吸引力偏向鲜明时装身份与容易被认出的意大利风格。",
+          "story": "竹节、双G与马衔扣形成密集的品牌暗号；它的吸引力偏向鲜明时装身份与容易被认出的意大利风格。",
+          "products": [
+            {
+              "name": "Bamboo 1947",
+              "description": "Gucci 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Jackie 1961",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.gucci.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "让品牌，成为穿搭的主角。",
+            "signature": "双 G、竹节与马衔扣组合出浓厚的意大利时装风格，经典与复古元素带来鲜明存在感。",
+            "audience": "喜欢有态度的时装搭配、复古符号和可见品牌归属的人。",
+            "expression": "外显的标识与装饰适合成为造型焦点，重点在风格表达与时装认同。"
+          }
+        },
+        {
+          "name": "普拉达",
+          "english": "Prada",
+          "tier": "高端级",
+          "reason": "三角标与尼龙、皮革系列共同建立都市时装语言，辨识感来自标识和冷静的现代造型。",
+          "story": "三角标与尼龙、皮革系列共同建立都市时装语言，辨识感来自标识和冷静的现代造型。",
+          "products": [
+            {
+              "name": "Galleria",
+              "description": "Prada 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Re-Edition",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.prada.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "冷静的都市时装态度。",
+            "signature": "三角标识、尼龙与 Galleria 的利落结构，把现代、理性和时装文化凝聚在日常物件中。",
+            "audience": "偏爱都市感、简洁设计和设计师品牌文化的人。",
+            "expression": "辨识来自小面积标识和整体造型，表达更偏现代审美与个人态度。"
+          }
+        },
+        {
+          "name": "圣罗兰",
+          "english": "Saint Laurent",
+          "tier": "高端级",
+          "reason": "联结字母标识和利落轮廓带有夜色、都市与时装态度，适合偏好外显标识但不希望过度繁复的穿搭。",
+          "story": "联结字母标识和利落轮廓带有夜色、都市与时装态度，适合偏好外显标识但不希望过度繁复的穿搭。",
+          "products": [
+            {
+              "name": "Le 5 à 7",
+              "description": "Saint Laurent 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Sac de Jour",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.ysl.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "夜色、线条与鲜明的名字。",
+            "signature": "联结字母标识、清晰线条与修长的时装形象，让手袋和成衣延续一致的都市气场。",
+            "audience": "喜欢利落穿搭、夜间社交和明确时装态度的人。",
+            "expression": "字母标识提供直接辨识，简洁廓形则保留精致和锋利感。"
+          }
+        },
+        {
+          "name": "罗意威",
+          "english": "LOEWE",
+          "tier": "高端级",
+          "reason": "Puzzle 的折面和工艺叙事提供时装圈辨识度，表达对设计和皮革细节的关注；与德国电视品牌 Loewe 不同。",
+          "story": "Puzzle 的折面和工艺叙事提供时装圈辨识度，表达对设计和皮革细节的关注；与德国电视品牌 Loewe 不同。",
+          "products": [
+            {
+              "name": "Puzzle",
+              "description": "LOEWE 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Flamenco",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.loewe.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "让设计感，成为圈内的暗号。",
+            "signature": "Puzzle 的折面、Flamenco 的柔软结构与 Anagram 标识，把皮革工艺变成可讨论的设计语言。",
+            "audience": "在意设计文化、创意表达和当代时装语境的人。",
+            "expression": "更适合通过造型与细节获得同好认同，气场偏艺术感和个人审美。"
+          }
+        },
+        {
+          "name": "芬迪",
+          "english": "Fendi",
+          "tier": "高端级",
+          "reason": "Baguette 与 Peekaboo 分别代表时装记忆和克制的皮具风格，双F标识在大众与时装语境中都易于形成联想。",
+          "story": "Baguette 与 Peekaboo 分别代表时装记忆和克制的皮具风格，双F标识在大众与时装语境中都易于形成联想。",
+          "products": [
+            {
+              "name": "Baguette",
+              "description": "Fendi 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Peekaboo",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.fendi.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "经典廓形里的时装身份。",
+            "signature": "Baguette、Peekaboo 与双 F 提供从鲜明标识到克制皮具的不同表达方式。",
+            "audience": "喜欢意大利时装、经典手袋记忆与个人化搭配的人。",
+            "expression": "标识款提供显性归属，结构化皮具则更偏成熟、精致的社交风格。"
+          }
+        },
+        {
+          "name": "赛琳",
+          "english": "Celine",
+          "tier": "高端级",
+          "reason": "Triomphe 扣饰与简洁的巴黎衣橱语言相连，偏向干净、利落而可辨识的日常身份表达。",
+          "story": "Triomphe 扣饰与简洁的巴黎衣橱语言相连，偏向干净、利落而可辨识的日常身份表达。",
+          "products": [
+            {
+              "name": "Triomphe",
+              "description": "Celine 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "16",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.celine.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "巴黎衣橱的利落与分寸。",
+            "signature": "Triomphe 扣饰与简洁的包身结构，是理解品牌日常穿搭气质的重要入口。",
+            "audience": "偏爱干净衣橱、克制配饰和巴黎时装形象的人。",
+            "expression": "通过小面积但清楚的品牌符号，完成日常造型中的身份点题。"
+          }
+        },
+        {
+          "name": "蔻驰",
+          "english": "Coach",
+          "tier": "进阶级",
+          "reason": "Tabby 与皮革传统提供更易接近的设计师品牌入口；属于进阶时装皮具，不能与高定或顶级稀缺皮具等同。",
+          "story": "Tabby 与皮革传统提供更易接近的设计师品牌入口；属于进阶时装皮具，不能与高定或顶级稀缺皮具等同。",
+          "products": [
+            {
+              "name": "Tabby",
+              "description": "Coach 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Rogue",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.coach.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "jewelry",
+      "scope": "LUXURY",
+      "note": "高级珠宝、日常珠宝和腕表业务需分别理解；层级不代表宝石鉴定或每件作品的价值。",
+      "items": [
+        {
+          "name": "格拉夫",
+          "english": "Graff",
+          "tier": "殿堂级",
+          "reason": "以钻石及高级珠宝叙事为中心，强调宝石本身和高级定制语境。",
+          "story": "Graff 的品牌世界围绕钻石与高级珠宝展开。大颗宝石作品与日常系列服务不同的佩戴和收藏场景。",
+          "products": [
+            {
+              "name": "高级珠宝系列",
+              "description": "以宝石、镶嵌和整体造型观察作品。"
+            },
+            {
+              "name": "Butterfly",
+              "description": "蝴蝶主题把宝石排列转化为具体意象。"
+            }
+          ],
+          "url": "https://www.graff.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "海瑞温斯顿",
+          "english": "Harry Winston",
+          "tier": "殿堂级",
+          "reason": "以钻石、高级珠宝和红毯语境形成品牌联想，适合正式场合的强仪式表达。",
+          "story": "Harry Winston 的作品以钻石与宝石镶嵌为重要内容，珠宝与腕表并行。理解它可以从簇状镶嵌和经典主题切入。",
+          "products": [
+            {
+              "name": "Winston Cluster",
+              "description": "以簇状宝石构成花叶般的轮廓。"
+            },
+            {
+              "name": "Lily Cluster",
+              "description": "以花形主题延伸日常珠宝表达。"
+            }
+          ],
+          "url": "https://www.harrywinston.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "梵克雅宝",
+          "english": "Van Cleef & Arpels",
+          "tier": "殿堂级",
+          "reason": "高级珠宝工艺与诗意主题并重；经典图案的辨识使日常表达也较清晰。",
+          "story": "梵克雅宝常以自然、幸运与舞蹈为灵感，覆盖高级珠宝、腕表和日常珠宝。图案本身成为理解品牌的入口。",
+          "products": [
+            {
+              "name": "Alhambra 四叶幸运",
+              "description": "四瓣图案具有较明确的识别线索。"
+            },
+            {
+              "name": "Frivole",
+              "description": "花朵造型强调立体感与光线变化。"
+            }
+          ],
+          "url": "https://www.vancleefarpels.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "诗意图案里的精致身份。",
+            "signature": "Alhambra 的四瓣图案、Frivole 的花朵与自然主题，建立温柔但清晰的珠宝暗号。",
+            "audience": "偏爱诗意主题、精细珠宝和有纪念意味的礼赠的人。",
+            "expression": "经典图案较容易形成同好辨识，适合精致日常与正式礼遇。"
+          }
+        },
+        {
+          "name": "卡地亚",
+          "english": "Cartier",
+          "tier": "奢华级",
+          "reason": "珠宝与腕表文化积累深，经典系列的大众认知和社交识别较强。",
+          "story": "卡地亚以珠宝、腕表及装饰艺术作品构建品牌叙事。豹、螺钉和钉子等元素把复杂文化联想凝缩成易识别的形式。",
+          "products": [
+            {
+              "name": "LOVE",
+              "description": "螺钉元素形成简洁明确的识别。"
+            },
+            {
+              "name": "Panthère de Cartier",
+              "description": "豹的形象贯穿珠宝及其他作品。"
+            }
+          ],
+          "url": "https://www.cartier.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "珠宝世家的锋芒与优雅。",
+            "signature": "豹、LOVE 的螺钉元素、Tank 与 Santos 的表壳轮廓，把装饰艺术浓缩成可识别的日常符号。",
+            "audience": "重视珠宝礼赠、纪念意义和正式社交形象的人。",
+            "expression": "同一品牌可以表达利落、浪漫或力量感，具体系列决定被看见的方式。"
+          }
+        },
+        {
+          "name": "宝格丽",
+          "english": "Bvlgari",
+          "tier": "奢华级",
+          "reason": "彩色宝石与鲜明造型具有表现力，更适合希望珠宝成为造型中心的人。",
+          "story": "宝格丽的设计常运用彩色宝石与饱满几何造型。蛇形主题与建筑般的线条构成其视觉世界。",
+          "products": [
+            {
+              "name": "Serpenti",
+              "description": "蛇形结构在珠宝与腕表中形成连续主题。"
+            },
+            {
+              "name": "B.zero1",
+              "description": "环形与建筑感线条带来较直接的设计识别。"
+            }
+          ],
+          "url": "https://www.bulgari.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "罗马气场，鲜明而丰盛。",
+            "signature": "Serpenti 的蛇形结构、B.zero1 的几何线条和彩色宝石，把珠宝放到造型的中心。",
+            "audience": "喜欢强烈造型、彩色宝石和外显珠宝气场的人。",
+            "expression": "表达更鲜明，适合让珠宝成为宴会、礼服和社交中的视觉焦点。"
+          }
+        },
+        {
+          "name": "蒂芙尼",
+          "english": "Tiffany & Co.",
+          "tier": "高端级",
+          "reason": "蓝色礼盒与经典珠宝符号具有广泛的社交识别，礼赠、纪念和品牌归属感是其鲜明吸引力。",
+          "story": "蓝色礼盒与经典珠宝符号具有广泛的社交识别，礼赠、纪念和品牌归属感是其鲜明吸引力。",
+          "products": [
+            {
+              "name": "Tiffany T",
+              "description": "Tiffany & Co. 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "HardWear",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.tiffany.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "蓝色礼盒里的纪念与礼遇。",
+            "signature": "蓝色礼盒、Tiffany T 与 HardWear，让礼赠仪式和日常珠宝拥有统一的品牌记忆。",
+            "audience": "重视纪念场合、礼物形象和清楚品牌归属的人。",
+            "expression": "品牌名称容易被理解，作品可以承载礼遇、情感与都市风格。"
+          }
+        },
+        {
+          "name": "尚美巴黎",
+          "english": "Chaumet",
+          "tier": "奢华级",
+          "reason": "冠冕传统和约瑟芬线条带有法式典礼感，更适合希望以珠宝传达精致、礼仪与历史联想的人。",
+          "story": "冠冕传统和约瑟芬线条带有法式典礼感，更适合希望以珠宝传达精致、礼仪与历史联想的人。",
+          "products": [
+            {
+              "name": "Joséphine",
+              "description": "Chaumet 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Liens",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.chaumet.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "宝诗龙",
+          "english": "Boucheron",
+          "tier": "奢华级",
+          "reason": "芳登广场语境与 Quatre 的几何叠层提供鲜明设计暗号，表达比单纯大颗宝石更偏个人化的珠宝态度。",
+          "story": "芳登广场语境与 Quatre 的几何叠层提供鲜明设计暗号，表达比单纯大颗宝石更偏个人化的珠宝态度。",
+          "products": [
+            {
+              "name": "Quatre",
+              "description": "Boucheron 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Serpent Bohème",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.boucheron.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "梅西卡",
+          "english": "Messika",
+          "tier": "高端级",
+          "reason": "Move 系列的活动钻石和轻盈设计把钻石带入日常时装场景，强调现代、年轻和可叠戴的身份表达。",
+          "story": "Move 系列的活动钻石和轻盈设计把钻石带入日常时装场景，强调现代、年轻和可叠戴的身份表达。",
+          "products": [
+            {
+              "name": "Move",
+              "description": "Messika 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "My Twin",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.messika.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "clothing",
+      "scope": "LUXURY",
+      "note": "高级定制、成衣和面料品牌采用不同商业模式；按代表性的高端服装语境阅读。",
+      "items": [
+        {
+          "name": "基顿",
+          "english": "Kiton",
+          "tier": "殿堂级",
+          "reason": "以高级男装、剪裁与手工语境为核心，身份表达偏向熟悉裁缝文化的人群。",
+          "story": "Kiton 的产品围绕男装剪裁及日常衣橱展开，强调服装与穿着者的关系。正式西装和较休闲的单品需分别试穿判断。",
+          "products": [
+            {
+              "name": "西装与夹克",
+              "description": "从肩部、胸部和整体平衡感理解剪裁。"
+            },
+            {
+              "name": "衬衫系列",
+              "description": "领型、面料及贴合程度决定具体体验。"
+            }
+          ],
+          "url": "https://kiton.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "布里奥尼",
+          "english": "Brioni",
+          "tier": "殿堂级",
+          "reason": "以男装剪裁和定制服务建立高端定位，适合正式商务的克制表达。",
+          "story": "Brioni 将剪裁服装、休闲衣橱与定制服务相结合。品牌吸引力更多依赖比例、面料和穿着场合，而非显眼标识。",
+          "products": [
+            {
+              "name": "定制剪裁服务",
+              "description": "具体版型和服务范围需向门店确认。"
+            },
+            {
+              "name": "西装系列",
+              "description": "观察版型与个人体态是否协调。"
+            }
+          ],
+          "url": "https://www.brioni.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "诺悠翩雅",
+          "english": "Loro Piana",
+          "tier": "奢华级",
+          "reason": "以珍贵纤维和克制衣橱建立品牌联想，属于低标识的圈内表达。",
+          "story": "Loro Piana 的服装与配饰围绕纤维、面料及轻松的穿着方式展开。材质、颜色和触感比外露标识更常成为识别入口。",
+          "products": [
+            {
+              "name": "The Gift of Kings 羊毛作品",
+              "description": "同一名称下的品类与款式需逐件了解。"
+            },
+            {
+              "name": "羊绒针织系列",
+              "description": "适合从触感、版型和护理需求比较。"
+            }
+          ],
+          "url": "https://www.loropiana.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "低标识衣橱的面料语言。",
+            "signature": "珍贵纤维、柔和色调和轻松廓形，使辨识更多落在触感、搭配和熟悉这类生活方式的人眼中。",
+            "audience": "喜欢克制穿搭、面料文化和安静生活方式的人。",
+            "expression": "表达偏向圈内审美，外露标识较少的款式不以人人认出为目标。"
+          }
+        },
+        {
+          "name": "香奈儿",
+          "english": "CHANEL",
+          "tier": "奢华级",
+          "reason": "高级时装与经典套装语汇突出，风格辨识度比单纯材质更容易被感知。",
+          "story": "香奈儿的服装以套装、斜纹软呢与精细装饰等元素建立视觉语言。不同季度的成衣与高级定制服装不可混为一谈。",
+          "products": [
+            {
+              "name": "斜纹软呢外套",
+              "description": "观察廓形、织物与搭配形成的整体表达。"
+            },
+            {
+              "name": "成衣系列",
+              "description": "需结合当季作品和实际穿着场景判断。"
+            }
+          ],
+          "url": "https://www.chanel.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "把时装语言，带入每一次出场。",
+            "signature": "双 C、菱格纹、链条和斜纹软呢，构成跨越手袋、配饰与服装的完整视觉语言。",
+            "audience": "希望穿搭传达经典时装身份、女性风格与正式感的人。",
+            "expression": "大众辨识较强，经典手袋与套装适合成为造型中可见的品牌标记。"
+          }
+        },
+        {
+          "name": "布内罗·古奇拉利",
+          "english": "Brunello Cucinelli",
+          "tier": "奢华级",
+          "reason": "柔和色调、针织与完整生活方式营造克制的富裕感；辨识更多来自面料语言、搭配与相近审美的人。",
+          "story": "柔和色调、针织与完整生活方式营造克制的富裕感；辨识更多来自面料语言、搭配与相近审美的人。",
+          "products": [
+            {
+              "name": "Cashmere Knitwear",
+              "description": "Brunello Cucinelli 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Tailoring",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.brunellocucinelli.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "柔和衣橱里的富裕感。",
+            "signature": "针织、柔和中性色与松弛的剪裁，营造完整而从容的生活方式形象。",
+            "audience": "偏爱成熟、克制与完整衣橱搭配的人。",
+            "expression": "辨识更多依靠整体风格和细节，适合低标识的私人会面与高端日常。"
+          }
+        },
+        {
+          "name": "迪奥",
+          "english": "Dior",
+          "tier": "奢华级",
+          "reason": "高级定制传统、Bar Jacket 与时装廓形建立鲜明的巴黎优雅，品牌吸引力来自时装文化与仪式感。",
+          "story": "高级定制传统、Bar Jacket 与时装廓形建立鲜明的巴黎优雅，品牌吸引力来自时装文化与仪式感。",
+          "products": [
+            {
+              "name": "Bar Jacket",
+              "description": "Dior 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Dior Oblique",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.dior.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "高级时装的仪式感。",
+            "signature": "藤格纹、字母挂饰、Lady Dior 和 Bar Jacket，将巴黎时装屋的文化与作品轮廓连接。",
+            "audience": "偏爱精致装扮、礼服场合和巴黎时装叙事的人。",
+            "expression": "通过廓形与细节传达优雅和郑重感；不同系列的外显程度各有差异。"
+          }
+        },
+        {
+          "name": "古驰",
+          "english": "Gucci",
+          "tier": "高端级",
+          "reason": "双G、马衔扣与复古时装语言形成强烈的可识别造型，适合希望穿搭主动传达品牌和态度的人。",
+          "story": "双G、马衔扣与复古时装语言形成强烈的可识别造型，适合希望穿搭主动传达品牌和态度的人。",
+          "products": [
+            {
+              "name": "Ready-to-wear",
+              "description": "Gucci 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "GG Knitwear",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.gucci.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "让品牌，成为穿搭的主角。",
+            "signature": "双 G、竹节与马衔扣组合出浓厚的意大利时装风格，经典与复古元素带来鲜明存在感。",
+            "audience": "喜欢有态度的时装搭配、复古符号和可见品牌归属的人。",
+            "expression": "外显的标识与装饰适合成为造型焦点，重点在风格表达与时装认同。"
+          }
+        },
+        {
+          "name": "博柏利",
+          "english": "Burberry",
+          "tier": "高端级",
+          "reason": "风衣、格纹与英国雨装传统是大众熟悉的风格符号，购买动机常包含经典形象和容易读懂的品牌归属。",
+          "story": "风衣、格纹与英国雨装传统是大众熟悉的风格符号，购买动机常包含经典形象和容易读懂的品牌归属。",
+          "products": [
+            {
+              "name": "Heritage Trench Coat",
+              "description": "Burberry 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Check Scarf",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.burberry.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "shoes",
+      "scope": "LUXURY",
+      "note": "手工皮鞋和时装鞋的评价标准不同；此处按各自代表性与高端工艺语境分层。",
+      "items": [
+        {
+          "name": "约翰罗布",
+          "english": "John Lobb",
+          "tier": "殿堂级",
+          "reason": "传统皮鞋与定制语境突出，适合对楦型和制鞋细节有兴趣的人。",
+          "story": "John Lobb 的鞋履以皮革、楦型和经典结构为重要内容。成鞋与定制服务在体验和范围上有所不同。",
+          "products": [
+            {
+              "name": "Lopez",
+              "description": "便士乐福鞋造型适合观察楦型与比例。"
+            },
+            {
+              "name": "City II",
+              "description": "正装系带鞋的代表切口。"
+            }
+          ],
+          "url": "https://www.johnlobb.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "伯尔鲁帝",
+          "english": "Berluti",
+          "tier": "奢华级",
+          "reason": "皮革染色和色泽变化具有识别度，适合较强个人风格的正式穿搭。",
+          "story": "Berluti 把鞋履、皮具和男装放在同一皮革审美世界中。Patina 色泽与鞋面线条是理解它的入口。",
+          "products": [
+            {
+              "name": "Alessandro",
+              "description": "简洁鞋面可突出皮革和色泽。"
+            },
+            {
+              "name": "Andy",
+              "description": "乐福鞋形式提供较轻松的穿搭语境。"
+            }
+          ],
+          "url": "https://www.berluti.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "克里斯提·鲁布托",
+          "english": "Christian Louboutin",
+          "tier": "奢华级",
+          "reason": "红色鞋底提供强视觉线索，更偏时装与公开社交表达。",
+          "story": "Christian Louboutin 的鞋履涵盖高跟鞋、平底鞋及男鞋。红底和多样鞋型构成品牌的时装语言。",
+          "products": [
+            {
+              "name": "Kate",
+              "description": "尖头高跟鞋是认识品牌的经典入口。"
+            },
+            {
+              "name": "Loubi Queen",
+              "description": "以细带结构呈现更明显的礼服场景。"
+            }
+          ],
+          "url": "https://www.christianlouboutin.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "罗杰维维亚",
+          "english": "Roger Vivier",
+          "tier": "奢华级",
+          "reason": "方扣与装饰性鞋履形成清晰辨识，偏精致正式与时装搭配。",
+          "story": "Roger Vivier 以鞋履及配饰构建品牌风格，几何扣饰是常见识别。不同鞋跟高度的场合和舒适度差异明显。",
+          "products": [
+            {
+              "name": "Belle Vivier",
+              "description": "方扣鞋履呈现经典装饰语言。"
+            },
+            {
+              "name": "Très Vivier",
+              "description": "通过更鲜明的鞋跟和扣饰表达造型。"
+            }
+          ],
+          "url": "https://www.rogervivier.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "莫罗·伯拉尼克",
+          "english": "Manolo Blahnik",
+          "tier": "高端级",
+          "reason": "Hangisi 的装饰扣与细长鞋型带有礼服和时装记忆，魅力来自优雅姿态与特定设计的辨识度。",
+          "story": "Hangisi 的装饰扣与细长鞋型带有礼服和时装记忆，魅力来自优雅姿态与特定设计的辨识度。",
+          "products": [
+            {
+              "name": "Hangisi",
+              "description": "Manolo Blahnik 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "BB",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.manoloblahnik.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "周仰杰",
+          "english": "Jimmy Choo",
+          "tier": "高端级",
+          "reason": "晚宴鞋与装饰性设计擅长营造出场感，适合礼服、婚礼与希望造型被注意到的社交场景。",
+          "story": "晚宴鞋与装饰性设计擅长营造出场感，适合礼服、婚礼与希望造型被注意到的社交场景。",
+          "products": [
+            {
+              "name": "Romy",
+              "description": "Jimmy Choo 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Bing",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.jimmychoo.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "菲拉格慕",
+          "english": "Ferragamo",
+          "tier": "高端级",
+          "reason": "Vara 蝴蝶结和 Gancini 等细节连接意大利鞋履传统，表达偏成熟、体面与日常可识别的风格。",
+          "story": "Vara 蝴蝶结和 Gancini 等细节连接意大利鞋履传统，表达偏成熟、体面与日常可识别的风格。",
+          "products": [
+            {
+              "name": "Vara",
+              "description": "Ferragamo 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Gancini Loafers",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.ferragamo.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "accessories",
+      "scope": "LUXURY",
+      "note": "配饰跨度较大，具体作品优先于品牌整体标签；跨品类同品牌沿用一个助力身份。",
+      "items": [
+        {
+          "name": "爱马仕",
+          "english": "Hermès",
+          "tier": "奢华级",
+          "reason": "皮革与金属细节、经典图案组成可显可隐的身份表达。",
+          "story": "爱马仕的配饰把皮革、金属和图案语言延展到日常搭配。小件作品也需要结合材质和佩戴方式理解。",
+          "products": [
+            {
+              "name": "H 扣皮带",
+              "description": "标识辨识较直接，需结合整体穿搭。"
+            },
+            {
+              "name": "Clic H 手镯",
+              "description": "可从配色与开合结构观察设计。"
+            }
+          ],
+          "url": "https://www.hermes.com/us/en/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          },
+          "character": {
+            "headline": "经典皮具里的身份暗号。",
+            "signature": "Kelly 与 Birkin 的结构、提手和五金比例，以及丝巾的图案语言，让熟悉品牌的人从细节读懂选择。",
+            "audience": "偏爱经典皮具、工艺传统和克制生活方式的人。",
+            "expression": "可以是低标识的从容，也可以通过经典廓形形成很明确的品牌归属。"
+          }
+        },
+        {
+          "name": "卡地亚",
+          "english": "Cartier",
+          "tier": "奢华级",
+          "reason": "珠宝与装饰艺术语言延伸至小型配饰，适合正式礼赠和搭配。",
+          "story": "卡地亚除珠宝与腕表外，也提供眼镜及生活配饰。经典造型元素在不同产品上的表达力度有所不同。",
+          "products": [
+            {
+              "name": "皮革与生活配饰",
+              "description": "以官网当前目录确认具体作品。"
+            },
+            {
+              "name": "珠宝配饰",
+              "description": "从 LOVE 等主题理解品牌符号。"
+            }
+          ],
+          "url": "https://www.cartier.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "珠宝世家的锋芒与优雅。",
+            "signature": "豹、LOVE 的螺钉元素、Tank 与 Santos 的表壳轮廓，把装饰艺术浓缩成可识别的日常符号。",
+            "audience": "重视珠宝礼赠、纪念意义和正式社交形象的人。",
+            "expression": "同一品牌可以表达利落、浪漫或力量感，具体系列决定被看见的方式。"
+          }
+        },
+        {
+          "name": "香奈儿",
+          "english": "CHANEL",
+          "tier": "奢华级",
+          "reason": "双 C、链条与珍珠意象使品牌识别直接，适合时装化的整体造型。",
+          "story": "香奈儿的腰带、胸针与时装首饰延续服装和手袋的视觉语言。时装首饰和贵金属珠宝的材质与用途需要区分。",
+          "products": [
+            {
+              "name": "胸针",
+              "description": "标识和装饰图案常成为造型焦点。"
+            },
+            {
+              "name": "腰带",
+              "description": "通过链条或扣饰呼应整体搭配。"
+            }
+          ],
+          "url": "https://www.chanel.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "把时装语言，带入每一次出场。",
+            "signature": "双 C、菱格纹、链条和斜纹软呢，构成跨越手袋、配饰与服装的完整视觉语言。",
+            "audience": "希望穿搭传达经典时装身份、女性风格与正式感的人。",
+            "expression": "大众辨识较强，经典手袋与套装适合成为造型中可见的品牌标记。"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "fragrance",
+      "scope": "LUXURY",
+      "note": "气味偏好主观，奢华定位不等于更适合自己；按沙龙香与高级香氛语境阅读。",
+      "items": [
+        {
+          "name": "克利夫·克里斯蒂安",
+          "english": "Clive Christian",
+          "tier": "奢华级",
+          "reason": "浓郁香氛与华丽包装形成奢华联想，社交识别主要发生在香氛爱好者中。",
+          "story": "Clive Christian 围绕香水系列、浓度和香调构建品牌故事。瓶身与命名只是入口，仍需在皮肤上体验完整气味变化。",
+          "products": [
+            {
+              "name": "Original Collection",
+              "description": "可比较不同香调的结构和个性。"
+            },
+            {
+              "name": "Private Collection",
+              "description": "从系列作品观察更具体的气味主题。"
+            }
+          ],
+          "url": "https://www.clivechristian.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "罗嘉",
+          "english": "Roja",
+          "tier": "奢华级",
+          "reason": "以高端沙龙香与鲜明个人风格建立定位，适合重视香味仪式感的人。",
+          "story": "Roja 以香水及香氛作品展开品牌叙事。不同浓度和版本会影响气味表现，不能仅凭同名判断体验。",
+          "products": [
+            {
+              "name": "Elysium",
+              "description": "应核对具体版本和官网命名后试香。"
+            },
+            {
+              "name": "Oceania",
+              "description": "从海洋意象理解一类较明亮的香氛表达。"
+            }
+          ],
+          "url": "https://rojaparfums.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "爱慕",
+          "english": "Amouage",
+          "tier": "奢华级",
+          "reason": "浓郁层次与阿曼文化叙事突出，辨识更依赖香水圈层。",
+          "story": "Amouage 把香水与阿曼文化、香料和艺术意象相连。其作品需要结合季节、用量及皮肤实际试闻。",
+          "products": [
+            {
+              "name": "Reflection",
+              "description": "以官网香调描述作为试香起点。"
+            },
+            {
+              "name": "Interlude",
+              "description": "适合体验层次丰富的气味表达。"
+            }
+          ],
+          "url": "https://amouage.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "馥马尔",
+          "english": "Frédéric Malle",
+          "tier": "高端级",
+          "reason": "以调香师及作品为阅读入口，偏向香水创作认同而非大标识。",
+          "story": "Frédéric Malle 将调香师的创作置于品牌叙事中心。每支作品的个性比统一的品牌气味更值得关注。",
+          "products": [
+            {
+              "name": "Portrait of a Lady",
+              "description": "通过玫瑰主题观察香味结构。"
+            },
+            {
+              "name": "Musc Ravageur",
+              "description": "从麝香与暖调表达体验另一类气味。"
+            }
+          ],
+          "url": "https://www.fredericmalle.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "恺芮得",
+          "english": "Creed",
+          "tier": "高端级",
+          "reason": "Aventus 及沙龙香水叙事在香氛兴趣人群中辨识清晰，香气本身比外露标识更接近私人的身份暗号。",
+          "story": "Aventus 及沙龙香水叙事在香氛兴趣人群中辨识清晰，香气本身比外露标识更接近私人的身份暗号。",
+          "products": [
+            {
+              "name": "Aventus",
+              "description": "Creed 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Green Irish Tweed",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://creedfragrance.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "柏芮朵",
+          "english": "Byredo",
+          "tier": "高端级",
+          "reason": "简洁瓶身和带有情绪叙事的命名形成现代生活方式符号，偏向都市审美和小众香氛社交。",
+          "story": "简洁瓶身和带有情绪叙事的命名形成现代生活方式符号，偏向都市审美和小众香氛社交。",
+          "products": [
+            {
+              "name": "Bal d’Afrique",
+              "description": "Byredo 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Blanche",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.byredo.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "Le Labo",
+          "english": "Le Labo",
+          "tier": "高端级",
+          "reason": "实验室标签、香调数字和门店体验建立圈内识别，Santal 33 等作品把个人气味与都市文化联系起来。",
+          "story": "实验室标签、香调数字和门店体验建立圈内识别，Santal 33 等作品把个人气味与都市文化联系起来。",
+          "products": [
+            {
+              "name": "Santal 33",
+              "description": "Le Labo 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Another 13",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.lelabofragrances.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "beauty",
+      "scope": "LUXURY",
+      "note": "定位侧重护理仪式、品牌文化和高端产品线，不构成功效或肤质适用结论。",
+      "items": [
+        {
+          "name": "莱珀妮",
+          "english": "La Prairie",
+          "tier": "奢华级",
+          "reason": "高端护肤与护理仪式感突出，适合重视品牌体验及礼赠场景的人。",
+          "story": "La Prairie 以护肤系列和护理体验构建品牌世界；不同系列的配方与目标肤感需要逐项核对。",
+          "products": [
+            {
+              "name": "Skin Caviar 鱼子精华系列",
+              "description": "以官网成分和使用方式了解具体单品。"
+            },
+            {
+              "name": "Platinum Rare 铂金系列",
+              "description": "高端护理线的代表入口，不代表适合所有肤质。"
+            }
+          ],
+          "url": "https://www.laprairie.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "法尔曼",
+          "english": "Valmont",
+          "tier": "奢华级",
+          "reason": "高端护理与美容服务语境较强，大众识别不及常见大牌但有圈内认同。",
+          "story": "Valmont 的产品与美容护理体验相连，覆盖日常护肤及更具仪式感的系列。",
+          "products": [
+            {
+              "name": "Prime Renewing Pack",
+              "description": "面膜作品的代表入口。"
+            },
+            {
+              "name": "L'Elixir des Glaciers",
+              "description": "从系列定位理解品牌的高端护理表达。"
+            }
+          ],
+          "url": "https://www.lamaisonvalmont.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "海蓝之谜",
+          "english": "La Mer",
+          "tier": "奢华级",
+          "reason": "明星面霜与鲜明包装提升大众辨识，品牌象征较容易在礼赠场景被理解。",
+          "story": "La Mer 围绕护肤配方与护理体验展开叙事；购买应区分乳霜质地和个人实际需求。",
+          "products": [
+            {
+              "name": "Crème de la Mer 精华面霜",
+              "description": "核心乳霜产品，需结合肤感和成分判断。"
+            },
+            {
+              "name": "The Treatment Lotion 精萃水",
+              "description": "可从具体使用步骤理解产品角色。"
+            }
+          ],
+          "url": "https://www.cremedelamer.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "赫莲娜",
+          "english": "Helena Rubinstein",
+          "tier": "高端级",
+          "reason": "护肤系列和鲜明包装营造高端护理仪式感，品牌溢价包含美容叙事、使用体验与礼赠形象。",
+          "story": "护肤系列和鲜明包装营造高端护理仪式感，品牌溢价包含美容叙事、使用体验与礼赠形象。",
+          "products": [
+            {
+              "name": "Re-Plasty",
+              "description": "Helena Rubinstein 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Powercell",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.helenarubinstein.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "肌肤之钥",
+          "english": "Clé de Peau Beauté",
+          "tier": "高端级",
+          "reason": "护肤与底妆构成精致梳妆台形象，吸引力包含日系高端美容的审美、包装和完整护理体验。",
+          "story": "护肤与底妆构成精致梳妆台形象，吸引力包含日系高端美容的审美、包装和完整护理体验。",
+          "products": [
+            {
+              "name": "La Crème",
+              "description": "Clé de Peau Beauté 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "The Foundation",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.cledepeaubeaute.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "cars",
+      "scope": "LUXURY",
+      "note": "超豪华轿车与超跑的社交语言不同；顺序反映各自顶端代表性，不等同于性能或价格榜。",
+      "items": [
+        {
+          "name": "布加迪",
+          "english": "Bugatti",
+          "tier": "殿堂级",
+          "reason": "超跑、稀缺作品与定制叙事强烈，属于极高辨识的收藏及展示语境。",
+          "story": "Bugatti 的品牌世界围绕超跑和定制作品展开，机械结构、造型及极少量生产的叙事相互关联。",
+          "products": [
+            {
+              "name": "Tourbillon",
+              "description": "以官网公布的车型资料理解当前设计语言。"
+            },
+            {
+              "name": "Chiron",
+              "description": "品牌现代超跑叙事的代表车型之一。"
+            }
+          ],
+          "url": "https://www.bugatti.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "劳斯莱斯",
+          "english": "Rolls-Royce",
+          "tier": "殿堂级",
+          "reason": "超豪华轿车与个性化定制是核心，正式社交和身份表达的符号较直接。",
+          "story": "Rolls-Royce Motor Cars 以超豪华汽车与 Bespoke 定制构建体验。车型的空间、使用方式和定制范围应分别了解。",
+          "products": [
+            {
+              "name": "Phantom 幻影",
+              "description": "较鲜明的旗舰轿车与礼宾场景。"
+            },
+            {
+              "name": "Cullinan 库里南",
+              "description": "以 SUV 形式延展品牌的超豪华体验。"
+            }
+          ],
+          "url": "https://www.rolls-roycemotorcars.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "抵达，本身就是一种仪式。",
+            "signature": "欢庆女神、帕特农神庙式格栅与车门设计，形成正式接待和个人定制的鲜明语境。",
+            "audience": "重视私人定制、正式礼遇和乘坐仪式感的人。",
+            "expression": "品牌气场偏郑重与尊贵，细节定制也为私人审美留下空间。"
+          }
+        },
+        {
+          "name": "宾利",
+          "english": "Bentley",
+          "tier": "奢华级",
+          "reason": "豪华旅行与驾驶体验结合，适合希望兼顾驾乘和正式社交的人。",
+          "story": "Bentley 将豪华座舱、长途旅行和驾驶放在同一叙事中；Mulliner 是理解个性化作品的重要入口。",
+          "products": [
+            {
+              "name": "Continental GT 欧陆 GT",
+              "description": "豪华双门旅行车的代表切口。"
+            },
+            {
+              "name": "Flying Spur 飞驰",
+              "description": "从轿车空间和驾乘方式理解品牌。"
+            }
+          ],
+          "url": "https://www.bentleymotors.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "法拉利",
+          "english": "Ferrari",
+          "tier": "奢华级",
+          "reason": "赛车文化与跑车造型提供强公众识别，表达更偏驾驶热情和外向展示。",
+          "story": "Ferrari 的道路车型与赛车文化紧密相连，跑车和不同车身形式服务不同使用场景。",
+          "products": [
+            {
+              "name": "Purosangue",
+              "description": "通过四门四座形式观察品牌的另一种用车场景。"
+            },
+            {
+              "name": "296 GTB",
+              "description": "可从中置跑车布局理解驾驶导向的产品语言。"
+            }
+          ],
+          "url": "https://www.ferrari.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "兰博基尼",
+          "english": "Lamborghini",
+          "tier": "奢华级",
+          "reason": "棱角造型和超跑形象鲜明，属于较直接的视觉与社交表达。",
+          "story": "Lamborghini 以鲜明造型及跑车叙事建立品牌识别，同时以 SUV 扩展日常使用场景。",
+          "products": [
+            {
+              "name": "Revuelto",
+              "description": "从旗舰跑车理解当代造型语言。"
+            },
+            {
+              "name": "Urus",
+              "description": "把跑车风格延展至 SUV 场景。"
+            }
+          ],
+          "url": "https://www.lamborghini.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "保时捷",
+          "english": "Porsche",
+          "tier": "高端级",
+          "reason": "911 的轮廓和跑车传统形成广泛识别，既有驾驶文化也有外显的成就感；不同车系不能简单视为同一稀缺等级。",
+          "story": "911 的轮廓和跑车传统形成广泛识别，既有驾驶文化也有外显的成就感；不同车系不能简单视为同一稀缺等级。",
+          "products": [
+            {
+              "name": "911",
+              "description": "Porsche 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Panamera",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.porsche.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "辨识度，沿着跑车轮廓延续。",
+            "signature": "911 的轮廓、盾徽与跑车文化，把驾驶兴趣与可见的品牌成就感连接。",
+            "audience": "喜欢跑车文化、设计传统与清楚品牌身份的人。",
+            "expression": "车系与配置表达不同生活方式，辨识可以同时发生在大众与车友之间。"
+          }
+        },
+        {
+          "name": "梅赛德斯-迈巴赫",
+          "english": "Mercedes-Maybach",
+          "tier": "奢华级",
+          "reason": "双M徽记、后排空间和专属细节把重心放在被接待与乘坐体验，传达更明显的商务礼遇和尊贵感。",
+          "story": "双M徽记、后排空间和专属细节把重心放在被接待与乘坐体验，传达更明显的商务礼遇和尊贵感。",
+          "products": [
+            {
+              "name": "Mercedes-Maybach S-Class",
+              "description": "Mercedes-Maybach 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Mercedes-Maybach GLS",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.mercedes-benz.com/en/vehicles/mercedes-maybach/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "玛莎拉蒂",
+          "english": "Maserati",
+          "tier": "高端级",
+          "reason": "三叉戟和意大利GT叙事提供明显的豪华运动身份，品牌气场和造型是其社交表达的重要组成。",
+          "story": "三叉戟和意大利GT叙事提供明显的豪华运动身份，品牌气场和造型是其社交表达的重要组成。",
+          "products": [
+            {
+              "name": "GranTurismo",
+              "description": "Maserati 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "MC20",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.maserati.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "motorcycles",
+      "scope": "SPECIALIST",
+      "note": "以精品摩托及旗舰作品为参考；赛车性能、复古工艺与定制不能用一条售价尺度衡量。",
+      "items": [
+        {
+          "name": "布劳·苏必利尔",
+          "english": "Brough Superior",
+          "tier": "奢华级",
+          "reason": "精品摩托与精细金属细节形成小众奢华语境，主要面向摩托爱好者。",
+          "story": "Brough Superior 的现代摩托将机械结构与复古形态结合，品牌吸引力依赖具体造型和制作表达。",
+          "products": [
+            {
+              "name": "SS100",
+              "description": "理解品牌复古机械语言的入口。"
+            },
+            {
+              "name": "Lawrence",
+              "description": "从另一种车身与结构表达观察作品。"
+            }
+          ],
+          "url": "https://www.brough-superior-motorcycles.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "ARCH 摩托",
+          "english": "ARCH Motorcycle",
+          "tier": "高端级",
+          "reason": "个性化精品摩托语境突出，识别集中在熟悉定制摩托的人群。",
+          "story": "ARCH Motorcycle 围绕精品摩托和骑乘者适配展开产品叙事。配置、交付和服务需按具体地区确认。",
+          "products": [
+            {
+              "name": "KRGT-1",
+              "description": "以巡航与运动结合的形态理解品牌。"
+            },
+            {
+              "name": "1s",
+              "description": "从骑姿和车体结构比较另一种设计方向。"
+            }
+          ],
+          "url": "https://archmotorcycle.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "杜卡迪",
+          "english": "Ducati",
+          "tier": "高端级",
+          "reason": "旗舰运动摩托与赛事文化辨识较强；只将高端代表作纳入参考，不把全线视作奢侈品。",
+          "story": "Ducati 的产品覆盖赛道取向与日常骑行等多种场景。这里以旗舰运动系列和高端巡航系列作为阅读入口。",
+          "products": [
+            {
+              "name": "Panigale V4",
+              "description": "以高性能运动摩托语境理解产品。"
+            },
+            {
+              "name": "Diavel V4",
+              "description": "从肌肉化造型和骑姿理解另一类表达。"
+            }
+          ],
+          "url": "https://www.ducati.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "MV 奥古斯塔",
+          "english": "MV Agusta",
+          "tier": "高端级",
+          "reason": "意大利跑车造型与赛车记忆形成强烈个性，在摩托圈里表达设计偏好和稀有车型兴趣。",
+          "story": "意大利跑车造型与赛车记忆形成强烈个性，在摩托圈里表达设计偏好和稀有车型兴趣。",
+          "products": [
+            {
+              "name": "Superveloce",
+              "description": "MV Agusta 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Brutale",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.mvagusta.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "bicycles",
+      "scope": "SPECIALIST",
+      "note": "这是高端运动与精品车架参考，品牌层级不等同于传统奢侈品；整车配置对体验影响很大。",
+      "items": [
+        {
+          "name": "帕索尼",
+          "english": "Passoni",
+          "tier": "高端级",
+          "reason": "精品车架与个性化装配形成小众认同，重视材料和手工表达。",
+          "story": "Passoni 围绕高端自行车架及整车呈现制作与骑行文化，车架、套件和适配需结合个人情况判断。",
+          "products": [
+            {
+              "name": "Titanio 车架作品",
+              "description": "以钛合金车架理解品牌制作语言。"
+            },
+            {
+              "name": "定制整车",
+              "description": "配置和适配应向品牌确认。"
+            }
+          ],
+          "url": "https://passoni.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "科尔纳戈",
+          "english": "Colnago",
+          "tier": "高端级",
+          "reason": "公路车与竞赛文化积累较强，圈内识别高于一般社交场合。",
+          "story": "Colnago 的公路车架涵盖不同的结构和骑行取向。认识品牌应区分旗舰制作线与竞赛导向车型。",
+          "products": [
+            {
+              "name": "C68",
+              "description": "从车架结构和制作语境理解系列。"
+            },
+            {
+              "name": "V 系列",
+              "description": "以官网当前型号比较竞赛方向的产品。"
+            }
+          ],
+          "url": "https://www.colnago.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "皮纳瑞罗",
+          "english": "Pinarello",
+          "tier": "高端级",
+          "reason": "竞赛公路车和独特车架曲线有识别度，表达偏向运动圈层。",
+          "story": "Pinarello 把公路竞赛与车架研发放在品牌叙事中心；同名车系的不同代际及配置需分别核对。",
+          "products": [
+            {
+              "name": "DOGMA F",
+              "description": "旗舰竞赛公路车的代表入口。"
+            },
+            {
+              "name": "DOGMA X",
+              "description": "从更侧重长距离骑行的设计观察差异。"
+            }
+          ],
+          "url": "https://pinarello.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Bianchi",
+          "english": "Bianchi",
+          "tier": "高端级",
+          "reason": "Celeste 青绿色和意大利公路车传统是骑行圈的鲜明暗号，高端车型表达器材审美与骑行文化。",
+          "story": "Celeste 青绿色和意大利公路车传统是骑行圈的鲜明暗号，高端车型表达器材审美与骑行文化。",
+          "products": [
+            {
+              "name": "Oltre",
+              "description": "Bianchi 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Specialissima",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.bianchi.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "yachts",
+      "scope": "LUXURY",
+      "note": "超大型定制游艇与系列量产艇差异极大；本组先展示定制超级游艇建造品牌。",
+      "items": [
+        {
+          "name": "乐顺",
+          "english": "Lürssen",
+          "tier": "殿堂级",
+          "reason": "大型定制游艇建造语境突出，身份表达更多发生在航海与资产持有圈层。",
+          "story": "Lürssen 以定制游艇建造及相关服务形成品牌世界。船舶是涉及运营、维护和船员的完整项目。",
+          "products": [
+            {
+              "name": "定制超级游艇",
+              "description": "按具体项目了解设计与建造范围。"
+            },
+            {
+              "name": "改装与维护服务",
+              "description": "后续运营是理解游艇体验的重要部分。"
+            }
+          ],
+          "url": "https://www.lurssen.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "斐帝星",
+          "english": "Feadship",
+          "tier": "殿堂级",
+          "reason": "以全定制超级游艇与协作设计建立定位，作品差异大于统一款型。",
+          "story": "Feadship 围绕定制超级游艇及设计建造合作展开业务，业主需求、设计团队和造船技术共同决定最终作品。",
+          "products": [
+            {
+              "name": "全定制游艇",
+              "description": "没有统一配置，应按项目理解。"
+            },
+            {
+              "name": "改装服务",
+              "description": "可从现有船舶升级了解全生命周期需求。"
+            }
+          ],
+          "url": "https://www.feadship.nl/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "贝尼蒂",
+          "english": "Benetti",
+          "tier": "奢华级",
+          "reason": "兼有定制与系列游艇，提供较多不同尺度的豪华航海场景。",
+          "story": "Benetti 的游艇产品涉及不同长度与建造方案，系列艇和定制项目需要分开比较。",
+          "products": [
+            {
+              "name": "B.Now",
+              "description": "从系列化设计理解空间与生活场景。"
+            },
+            {
+              "name": "Custom 定制项目",
+              "description": "具体尺寸、设计和交付需逐项目核实。"
+            }
+          ],
+          "url": "https://www.benettiyachts.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "wine-spirits",
+      "scope": "LUXURY",
+      "note": "葡萄酒、香槟与烈酒不可直接比较；层级侧重代表性和收藏语境，不作口味、真伪或投资判断。",
+      "items": [
+        {
+          "name": "罗曼尼康帝酒庄",
+          "english": "Domaine de la Romanée-Conti",
+          "tier": "殿堂级",
+          "reason": "产区、园地与收藏叙事密切相关，识别主要来自葡萄酒圈层。",
+          "story": "Domaine de la Romanée-Conti 的作品需结合具体葡萄园、年份与来源理解，不能只按酒庄名称给所有酒统一判断。",
+          "products": [
+            {
+              "name": "Romanée-Conti",
+              "description": "具体年份、保存与流通来源需要核实。"
+            },
+            {
+              "name": "La Tâche",
+              "description": "以不同园地理解同一酒庄的作品差异。"
+            }
+          ],
+          "url": "https://www.romanee-conti.fr/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "路易十三",
+          "english": "LOUIS XIII",
+          "tier": "奢华级",
+          "reason": "干邑、醒目酒瓶和礼赠仪式感构成较直接的奢华表达。",
+          "story": "LOUIS XIII 以干邑调配与时间叙事展开品牌世界，规格和版本在呈现及场景上有所区别。",
+          "products": [
+            {
+              "name": "The Classic Decanter",
+              "description": "经典瓶型与标准作品的阅读入口。"
+            },
+            {
+              "name": "The Miniature",
+              "description": "小规格呈现形式，具体在售情况应核对。"
+            }
+          ],
+          "url": "https://www.louisxiii-cognac.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "库克",
+          "english": "Krug",
+          "tier": "奢华级",
+          "reason": "以香槟调配与品饮体验建立圈内认同，品牌象征依赖受众的酒类知识。",
+          "story": "Krug 通过不同年份的调配与单一年份作品表达香槟风格，批次及储存条件都影响具体体验。",
+          "products": [
+            {
+              "name": "Grande Cuvée",
+              "description": "注意不同 Édition 的区别。"
+            },
+            {
+              "name": "Krug Vintage",
+              "description": "按具体年份理解作品与场景。"
+            }
+          ],
+          "url": "https://www.krug.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "唐培里侬",
+          "english": "Dom Pérignon",
+          "tier": "高端级",
+          "reason": "年份香槟、盾形酒标和庆祝场景形成容易被理解的礼遇符号，吸引力包含宴请、纪念与品牌仪式。",
+          "story": "年份香槟、盾形酒标和庆祝场景形成容易被理解的礼遇符号，吸引力包含宴请、纪念与品牌仪式。",
+          "products": [
+            {
+              "name": "Vintage",
+              "description": "Dom Pérignon 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Rosé",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.domperignon.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "phones",
+      "scope": "SPECIALIST",
+      "note": "这里收录精品手机及外观定制服务；宝石、材料与品牌溢价不代表通信、系统或隐私性能更好。",
+      "items": [
+        {
+          "name": "纬图",
+          "english": "VERTU",
+          "tier": "高端级",
+          "reason": "精品手机与服务叙事鲜明，属于小众身份表达，需单独核对系统和服务。",
+          "story": "VERTU 以手机外观、材质及配套服务构建高端定位；各代产品的系统、网络和服务范围并不相同。",
+          "products": [
+            {
+              "name": "Signature 系列",
+              "description": "以经典键盘机形态理解品牌的外观表达。"
+            },
+            {
+              "name": "iVERTU 系列",
+              "description": "应按具体代际核对智能手机配置。"
+            }
+          ],
+          "url": "https://vertu.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Caviar 定制",
+          "english": "Caviar",
+          "tier": "高端级",
+          "reason": "以手机外观及材料定制为主，定制商身份与原手机制造商不同。",
+          "story": "Caviar 为手机等设备提供外观定制方案，价值主要体现在设计和材料呈现；不应视作原机品牌的官方奢侈等级。",
+          "products": [
+            {
+              "name": "定制 iPhone",
+              "description": "先确认基底机型、改装范围和保修责任。"
+            },
+            {
+              "name": "定制 Samsung Galaxy",
+              "description": "不同版本的兼容性与售后需单独确认。"
+            }
+          ],
+          "url": "https://caviar.global/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Goldgenie 定制",
+          "english": "Goldgenie",
+          "tier": "高端级",
+          "reason": "以贵金属外观定制及礼赠呈现为入口，属于定制服务参考。",
+          "story": "Goldgenie 围绕设备和物品的镀金、外观定制与礼赠展开业务；材料说明和保修边界需逐项核实。",
+          "products": [
+            {
+              "name": "定制手机",
+              "description": "基底设备与外观工艺应分别核对。"
+            },
+            {
+              "name": "个性化礼赠定制",
+              "description": "服务范围以官方当前目录为准。"
+            }
+          ],
+          "url": "https://www.goldgenie.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "computers",
+      "scope": "SPECIALIST",
+      "note": "电脑没有稳定公认的奢侈品牌阶序。仅收录高端专业、精品装配或设计取向的参考，不给出奢侈程度名次。",
+      "items": [
+        {
+          "name": "猎鹰西北",
+          "english": "Falcon Northwest",
+          "tier": "不适用",
+          "reason": "精品装配与个性化机箱是阅读重点，定位属于高端电脑而非传统奢侈品牌。",
+          "story": "Falcon Northwest 的电脑围绕高性能装配、机箱和个性化外观展开；配置而非品牌标签决定具体任务表现。",
+          "products": [
+            {
+              "name": "Talon",
+              "description": "以台式机平台理解配置与机箱方案。"
+            },
+            {
+              "name": "Tiki",
+              "description": "小型台式机的代表入口。"
+            }
+          ],
+          "url": "https://www.falcon-nw.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          },
+          "character": {
+            "headline": "私人装机的个性签名。",
+            "signature": "Talon 与 Tiki 以不同机箱形态承载装配和外观定制，识别更集中在熟悉精品电脑的人群。",
+            "audience": "对个性化装配、桌面形象和精品电脑文化有兴趣的人。",
+            "expression": "表达偏小众器材与个人创作空间，属于高端专业参考。"
+          }
+        },
+        {
+          "name": "苹果",
+          "english": "Apple",
+          "tier": "不适用",
+          "reason": "仅以 Mac 专业产品线作高端设备参考；大众科技品牌不整体认定为奢侈品牌。",
+          "story": "Apple 的 Mac 产品面向不同计算与创作场景；此处聚焦专业桌面产品线，而非将其全线纳入奢侈定位。",
+          "products": [
+            {
+              "name": "Mac Pro",
+              "description": "按当前硬件和扩展条件评估需求。"
+            },
+            {
+              "name": "Mac Studio",
+              "description": "以桌面创作工作流理解产品取向。"
+            }
+          ],
+          "url": "https://www.apple.com/mac/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "ORIGIN PC",
+          "english": "ORIGIN PC",
+          "tier": "不适用",
+          "reason": "以高端定制装配服务作为专业设备补充，电脑规格不能转化为奢侈等级。",
+          "story": "ORIGIN PC 提供不同外形与配置的电脑装配方案，实际体验依赖硬件、散热与服务。",
+          "products": [
+            {
+              "name": "GENESIS",
+              "description": "高性能桌面平台的代表入口。"
+            },
+            {
+              "name": "MILLENNIUM",
+              "description": "从机箱与配置选项比较装配方案。"
+            }
+          ],
+          "url": "https://www.originpc.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "headphones",
+      "scope": "SPECIALIST",
+      "note": "按高端个人音频与旗舰作品参考，声音偏好和佩戴舒适度不能用价格或品牌层级替代。",
+      "items": [
+        {
+          "name": "森海塞尔",
+          "english": "Sennheiser",
+          "tier": "高端级",
+          "reason": "仅聚焦顶端个人音频作品，品牌其他价位产品不因此成为奢侈品。",
+          "story": "Sennheiser 的产品跨度很广，此处以旗舰耳机系统和高端开放式耳机作为个人音频参考。",
+          "products": [
+            {
+              "name": "HE 1",
+              "description": "完整耳机系统，试听与使用环境都很重要。"
+            },
+            {
+              "name": "HD 800 S",
+              "description": "开放式头戴耳机的代表作品。"
+            }
+          ],
+          "url": "https://www.sennheiser-hearing.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "劲浪",
+          "english": "Focal",
+          "tier": "高端级",
+          "reason": "从高端扬声器延伸至耳机，以旗舰作品建立音频圈层认同。",
+          "story": "Focal 的个人音频包括开放式、封闭式和不同使用取向的产品，旗舰作品需结合前端设备试听。",
+          "products": [
+            {
+              "name": "Utopia 耳机",
+              "description": "开放式耳机的代表入口。"
+            },
+            {
+              "name": "Stellia",
+              "description": "以封闭式结构比较不同使用场景。"
+            }
+          ],
+          "url": "https://www.focal.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "奥德兹",
+          "english": "Audeze",
+          "tier": "高端级",
+          "reason": "平面振膜耳机与专业音频语境较鲜明，大众社交辨识相对有限。",
+          "story": "Audeze 的耳机面向音乐聆听、制作及其他场景，重量、驱动和佩戴方式应作为购买前的重点。",
+          "products": [
+            {
+              "name": "LCD-5",
+              "description": "从旗舰作品理解品牌的个人音频方向。"
+            },
+            {
+              "name": "LCD-X",
+              "description": "聆听与制作场景的另一代表入口。"
+            }
+          ],
+          "url": "https://www.audeze.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "audio",
+      "scope": "LUXURY",
+      "note": "高端音响兼有声音系统和空间陈设属性；搭配、房间及调校会显著影响结果。",
+      "items": [
+        {
+          "name": "威信音响",
+          "english": "Wilson Audio",
+          "tier": "殿堂级",
+          "reason": "大型高端扬声器与音响发烧圈层认同突出，外形和系统搭配具有较强存在感。",
+          "story": "Wilson Audio 围绕高端扬声器展开品牌作品，不同箱体与系统需要结合房间条件及专业调校理解。",
+          "products": [
+            {
+              "name": "Chronosonic XVX",
+              "description": "大型扬声器系统的代表作品。"
+            },
+            {
+              "name": "Alexx V",
+              "description": "可从另一种系统规模观察设计。"
+            }
+          ],
+          "url": "https://www.wilsonaudio.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "高文",
+          "english": "Goldmund",
+          "tier": "奢华级",
+          "reason": "高端音频系统与整体设计形成小众认同，主要面向熟悉器材的受众。",
+          "story": "Goldmund 提供扬声器、放大与数字音频相关作品，系统匹配和安装条件需要整体考虑。",
+          "products": [
+            {
+              "name": "扬声器系列",
+              "description": "具体在售型号与房间适配应向官方核对。"
+            },
+            {
+              "name": "放大器系列",
+              "description": "与音源及扬声器形成完整系统。"
+            }
+          ],
+          "url": "https://goldmund.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "铂傲",
+          "english": "Bang & Olufsen",
+          "tier": "高端级",
+          "reason": "声音与家居设计结合，外形辨识比许多发烧器材更容易被非专业受众感知。",
+          "story": "Bang & Olufsen 将声音、材料和空间设计结合，提供家居扬声器及个人音频等作品。",
+          "products": [
+            {
+              "name": "Beolab 90",
+              "description": "从声音系统与雕塑般外观理解旗舰设计。"
+            },
+            {
+              "name": "Beosound A9",
+              "description": "具有鲜明家居陈设语言的一体式作品。"
+            }
+          ],
+          "url": "https://www.bang-olufsen.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "麦景图",
+          "english": "McIntosh",
+          "tier": "高端级",
+          "reason": "蓝色表头与黑玻璃面板在音响圈辨识鲜明，器材既是聆听设备，也是私人影音空间的审美陈设。",
+          "story": "蓝色表头与黑玻璃面板在音响圈辨识鲜明，器材既是聆听设备，也是私人影音空间的审美陈设。",
+          "products": [
+            {
+              "name": "MC462",
+              "description": "McIntosh 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "MA12000",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.mcintoshlabs.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "cameras",
+      "scope": "SPECIALIST",
+      "note": "高端影像、设计文化与专业工具的评价不同；这里不以像素、成像或售价定义奢侈程度。",
+      "items": [
+        {
+          "name": "徕卡",
+          "english": "Leica",
+          "tier": "高端级",
+          "reason": "摄影文化、经典造型与机械操作形成小众身份表达，圈内辨识较强。",
+          "story": "Leica 将摄影工具、镜头和影像文化连接起来；不同系统的拍摄方式差异很大。",
+          "products": [
+            {
+              "name": "Leica M",
+              "description": "从旁轴操作和镜头系统理解经典摄影语境。"
+            },
+            {
+              "name": "Leica Q",
+              "description": "以固定镜头相机理解另一种随身拍摄方式。"
+            }
+          ],
+          "url": "https://leica-camera.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "哈苏",
+          "english": "Hasselblad",
+          "tier": "高端级",
+          "reason": "中画幅影像与设计识别构成专业圈层参考，不将品牌价位等同于艺术成就。",
+          "story": "Hasselblad 以中画幅相机及镜头系统构建影像工具，操作、体积和工作流需要与拍摄需求配合。",
+          "products": [
+            {
+              "name": "X 系统",
+              "description": "以便携中画幅相机和镜头理解产品方向。"
+            },
+            {
+              "name": "907X 与数码后背",
+              "description": "结合模块化和经典造型观察使用体验。"
+            }
+          ],
+          "url": "https://www.hasselblad.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "飞思",
+          "english": "Phase One",
+          "tier": "高端级",
+          "reason": "专业中画幅与工作流定位突出，大众身份符号属性较弱。",
+          "story": "Phase One 的相机、数码后背及软件面向专业影像场景；商业制作需求比一般社交展示更能解释其价值。",
+          "products": [
+            {
+              "name": "IQ4 系统",
+              "description": "结合数码后背、镜头和工作流理解。"
+            },
+            {
+              "name": "XT 系统",
+              "description": "从技术相机形式观察专业拍摄方式。"
+            }
+          ],
+          "url": "https://www.phaseone.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "阿尔帕",
+          "english": "ALPA",
+          "tier": "高端级",
+          "reason": "模块化相机与精密制造叙事面向小众影像圈层，辨识来自器材知识和制作语言，不能视为大众奢侈品牌。",
+          "story": "模块化相机与精密制造叙事面向小众影像圈层，辨识来自器材知识和制作语言，不能视为大众奢侈品牌。",
+          "products": [
+            {
+              "name": "12 SWA",
+              "description": "ALPA 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "12 STC",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.alpa.swiss/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "televisions",
+      "scope": "SPECIALIST",
+      "note": "精品影音与空间设计参考，显示效果、安装要求和服务另行判断。",
+      "items": [
+        {
+          "name": "C SEED",
+          "english": "C SEED",
+          "tier": "高端级",
+          "reason": "大型可折叠显示与建筑空间结合，陈设与展示属性较明显。",
+          "story": "C SEED 围绕大型显示及空间呈现展开产品，结构、安装与观看距离需要整体规划。",
+          "products": [
+            {
+              "name": "N1",
+              "description": "以展开式显示结构理解空间表达。"
+            },
+            {
+              "name": "M1",
+              "description": "另一类大型显示与隐藏式安装的阅读入口。"
+            }
+          ],
+          "url": "https://www.cseed.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "铂傲",
+          "english": "Bang & Olufsen",
+          "tier": "高端级",
+          "reason": "电视外观、声音和展开动作组成完整家居仪式，设计识别突出。",
+          "story": "Bang & Olufsen 的电视作品把屏幕、声学系统和家具般的结构结合，需要按屏幕、支架及音频配置理解。",
+          "products": [
+            {
+              "name": "Beovision Harmony",
+              "description": "从展开结构与声学外观理解作品。"
+            },
+            {
+              "name": "Beovision Theatre",
+              "description": "把电视与声音系统组合成空间体验。"
+            }
+          ],
+          "url": "https://www.bang-olufsen.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "勒维",
+          "english": "Loewe",
+          "tier": "高端级",
+          "reason": "精品电视与家居设计取向明确，属于高端消费电子参考。",
+          "story": "Loewe 的电视与音频产品强调设计和家庭空间搭配；实际显示技术与规格应按型号核对。",
+          "products": [
+            {
+              "name": "stellar",
+              "description": "以旗舰电视作品理解材料与外观设计。"
+            },
+            {
+              "name": "bild 系列",
+              "description": "从不同规格比较日常家庭影音方案。"
+            }
+          ],
+          "url": "https://www.loewe.tv/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "appliances",
+      "scope": "LUXURY",
+      "note": "以高端厨房、设计及定制体验为主，不能直接推导每件家电的性能或耐用度。",
+      "items": [
+        {
+          "name": "拉科尔纽",
+          "english": "La Cornue",
+          "tier": "奢华级",
+          "reason": "炉具、色彩和定制厨房具有较强空间象征，适合把厨房视为家居表达的人。",
+          "story": "La Cornue 围绕烹饪炉具与厨房作品建立品牌世界，外观选择、安装和烹饪习惯需共同考虑。",
+          "products": [
+            {
+              "name": "Château",
+              "description": "从定制炉具理解品牌的核心语境。"
+            },
+            {
+              "name": "CornuFé",
+              "description": "以另一产品线观察尺寸与使用场景。"
+            }
+          ],
+          "url": "https://lacornue.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "嘉格纳",
+          "english": "Gaggenau",
+          "tier": "高端级",
+          "reason": "嵌入式厨房与整体设计语境较强，辨识依赖家居和厨房圈层。",
+          "story": "Gaggenau 的厨房设备包括烤箱、灶具和储藏等产品，整体厨房规划比单个标识更重要。",
+          "products": [
+            {
+              "name": "烤箱系列",
+              "description": "按具体型号了解控制、尺寸和安装条件。"
+            },
+            {
+              "name": "嵌入式制冷设备",
+              "description": "需要结合厨房设计与维护条件。"
+            }
+          ],
+          "url": "https://www.gaggenau.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Sub-Zero 与 Wolf",
+          "english": "Sub-Zero & Wolf",
+          "tier": "高端级",
+          "reason": "以制冷和烹饪设备组成高端厨房体系，呈现偏专业厨房与住宅规划。",
+          "story": "Sub-Zero 与 Wolf 分别围绕制冷及烹饪设备展开产品，共同出现在高端厨房方案中；应分别核对每台设备。",
+          "products": [
+            {
+              "name": "Sub-Zero 制冷设备",
+              "description": "从嵌入式与储藏需求理解产品。"
+            },
+            {
+              "name": "Wolf 炉灶与烤箱",
+              "description": "关注燃气、电力和安装要求。"
+            }
+          ],
+          "url": "https://www.subzero-wolf.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "furniture",
+      "scope": "LUXURY",
+      "note": "设计史、材料与定制体验共同影响定位；沙发、系统家具和艺术家具不宜按单件价格硬排。",
+      "items": [
+        {
+          "name": "宝玺",
+          "english": "Poltrona Frau",
+          "tier": "奢华级",
+          "reason": "皮革家具与设计传统形成明确识别，适合重视触感和整体空间的人。",
+          "story": "Poltrona Frau 以座椅、皮革与家居作品展开设计世界，经典作品和现代系列需要按空间尺度理解。",
+          "products": [
+            {
+              "name": "Vanity Fair",
+              "description": "从扶手椅廓形了解品牌的经典语言。"
+            },
+            {
+              "name": "Chester",
+              "description": "以皮革与软包结构理解另一类代表作品。"
+            }
+          ],
+          "url": "https://www.poltronafrau.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "宾利家居",
+          "english": "Bentley Home",
+          "tier": "奢华级",
+          "reason": "把汽车品牌联想带入家具，更侧重空间中的显性品牌和材料表达。",
+          "story": "Bentley Home 将家居作品与 Bentley 的材料和造型联想相连；它是家居产品线，不等同于汽车本身。",
+          "products": [
+            {
+              "name": "沙发系列",
+              "description": "从线条和饰面观察品牌联想。"
+            },
+            {
+              "name": "桌与柜类",
+              "description": "结合整体空间搭配判断表达力度。"
+            }
+          ],
+          "url": "https://www.bentleyhome.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "卡西纳",
+          "english": "Cassina",
+          "tier": "高端级",
+          "reason": "设计作品与作者文化突出，更容易在建筑和设计圈层获得认同。",
+          "story": "Cassina 的家具目录包含不同设计师与时代的作品，作者、版本和空间关系比统一品牌标签更能解释单件家具。",
+          "products": [
+            {
+              "name": "LC 系列",
+              "description": "按具体作品核对设计及授权信息。"
+            },
+            {
+              "name": "Maralunga",
+              "description": "从沙发结构与使用形式理解设计。"
+            }
+          ],
+          "url": "https://www.cassina.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "B&B Italia",
+          "english": "B&B Italia",
+          "tier": "高端级",
+          "reason": "设计师家具和完整空间语言在建筑、室内设计圈内形成文化辨识，价值表达更多落在审美和居住方式。",
+          "story": "设计师家具和完整空间语言在建筑、室内设计圈内形成文化辨识，价值表达更多落在审美和居住方式。",
+          "products": [
+            {
+              "name": "Camaleonda",
+              "description": "B&B Italia 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Tufty-Time",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.bebitalia.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "stationery",
+      "scope": "LUXURY",
+      "note": "先看制作与书写文化，再看公共辨识；限定作品与常规系列不能一概而论。",
+      "items": [
+        {
+          "name": "并木",
+          "english": "Namiki",
+          "tier": "殿堂级",
+          "reason": "以漆艺和装饰性书写作品形成收藏语境，圈内识别强于普通商务场景。",
+          "story": "Namiki 围绕钢笔与日本漆艺呈现书写作品，不同系列的技法和题材需要单独理解。",
+          "products": [
+            {
+              "name": "Emperor",
+              "description": "从较大型笔身观察漆艺主题。"
+            },
+            {
+              "name": "Yukari Royale",
+              "description": "以另一尺寸和装饰形式理解系列。"
+            }
+          ],
+          "url": "https://www.pilot-namiki.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "万宝龙",
+          "english": "Montblanc",
+          "tier": "奢华级",
+          "reason": "书写工具和商务礼赠辨识较强，适合希望品牌符号容易被理解的人。",
+          "story": "Montblanc 将书写、皮具与纪念性作品连接起来，笔尖和握持方式决定书写工具的实际体验。",
+          "products": [
+            {
+              "name": "Meisterstück 大班系列",
+              "description": "经典书写产品线。"
+            },
+            {
+              "name": "StarWalker",
+              "description": "以不同造型语言扩展日常书写。"
+            }
+          ],
+          "url": "https://www.montblanc.com/en-us/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "都彭",
+          "english": "S.T. Dupont",
+          "tier": "高端级",
+          "reason": "书写、打火机与礼赠文化并行，金属及漆面细节具有圈内识别。",
+          "story": "S.T. Dupont 的配饰和书写工具以材料、开合及表面处理呈现品牌语言，礼赠与日常使用需求应分别判断。",
+          "products": [
+            {
+              "name": "Line D",
+              "description": "书写工具的代表产品线。"
+            },
+            {
+              "name": "Défi",
+              "description": "从更现代的外形比较不同表达。"
+            }
+          ],
+          "url": "https://www.st-dupont.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "辉柏嘉伯爵",
+          "english": "Graf von Faber-Castell",
+          "tier": "高端级",
+          "reason": "木材、金属和经典书写形制带来克制的签字仪式，品牌身份更依赖书写兴趣人群的细节识别。",
+          "story": "木材、金属和经典书写形制带来克制的签字仪式，品牌身份更依赖书写兴趣人群的细节识别。",
+          "products": [
+            {
+              "name": "Classic",
+              "description": "Graf von Faber-Castell 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Guilloche",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.graf-von-faber-castell.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "sports",
+      "scope": "SPECIALIST",
+      "note": "高端健身与家居器材参考，不代表器材能带来更好成绩；空间、指导和使用频率更关键。",
+      "items": [
+        {
+          "name": "PENT.",
+          "english": "PENT.",
+          "tier": "高端级",
+          "reason": "木材与金属把健身器材转化为空间陈设，精品设计取向鲜明。",
+          "story": "PENT. 将训练器材与家具般的材料表达结合，产品需要同时满足使用安全和空间规划。",
+          "products": [
+            {
+              "name": "哑铃与储架",
+              "description": "从训练器材和陈列组合理解设计。"
+            },
+            {
+              "name": "健身长凳",
+              "description": "尺寸与动作需求需要实际核对。"
+            }
+          ],
+          "url": "https://www.pentfitness.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "泰诺健",
+          "english": "Technogym",
+          "tier": "高端级",
+          "reason": "仅聚焦 Personal 等高端家用线，品牌的全线器材不整体定义为奢侈品。",
+          "story": "Technogym 的器材覆盖商业健身及家用训练，Personal 产品线更强调家庭空间和设计。",
+          "products": [
+            {
+              "name": "Run Personal",
+              "description": "跑步设备与家居设计结合。"
+            },
+            {
+              "name": "Kinesis Personal",
+              "description": "以多功能训练结构理解家庭使用。"
+            }
+          ],
+          "url": "https://www.technogym.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "NOHrD",
+          "english": "NOHrD",
+          "tier": "高端级",
+          "reason": "木质器材与家居融合较突出，身份表达偏设计和生活方式。",
+          "story": "NOHrD 的健身器材把木材和训练功能结合，具体阻力、体积及维护要求需按产品核对。",
+          "products": [
+            {
+              "name": "SlimBeam",
+              "description": "从拉索训练和墙面空间利用理解产品。"
+            },
+            {
+              "name": "Sprintbok",
+              "description": "弧形跑台提供另一类训练形式。"
+            }
+          ],
+          "url": "https://www.nohrd.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "outdoor",
+      "scope": "SPECIALIST",
+      "note": "户外时装与技术装备分开阅读；此处只收录高端代表线，不把功能或价格直接等同于奢侈程度。",
+      "items": [
+        {
+          "name": "盟可睐",
+          "english": "Moncler",
+          "tier": "奢华级",
+          "reason": "羽绒服与时装化户外表达辨识较强，适合需要外显品牌的冬季穿搭。",
+          "story": "Moncler 将羽绒服、户外联想与时装合作连接，日常服装和专业运动系列有不同用途。",
+          "products": [
+            {
+              "name": "Maya",
+              "description": "经典羽绒夹克的阅读入口。"
+            },
+            {
+              "name": "Grenoble",
+              "description": "从运动及山地场景理解另一条产品线。"
+            }
+          ],
+          "url": "https://www.moncler.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "Fusalp",
+          "english": "Fusalp",
+          "tier": "高端级",
+          "reason": "滑雪与都市服装相结合，社交识别主要在滑雪和度假场景。",
+          "story": "Fusalp 以滑雪服装和都市衣橱展开产品，剪裁、保暖和运动适配需结合实际活动。",
+          "products": [
+            {
+              "name": "滑雪夹克",
+              "description": "按具体规格核对防护和活动需求。"
+            },
+            {
+              "name": "滑雪裤",
+              "description": "版型与运动自由度需要试穿。"
+            }
+          ],
+          "url": "https://www.fusalp.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "始祖鸟 Veilance",
+          "english": "Veilance",
+          "tier": "高端级",
+          "reason": "仅指 Veilance 城市设计线，表达偏低标识与机能审美，不代表母品牌全线奢侈定位。",
+          "story": "Veilance 以城市服装形式运用功能面料和简洁结构，更接近设计及机能圈层的低调表达。",
+          "products": [
+            {
+              "name": "城市外壳夹克",
+              "description": "按当季款式核对面料和结构。"
+            },
+            {
+              "name": "城市长裤",
+              "description": "从剪裁与日常搭配理解产品。"
+            }
+          ],
+          "url": "https://arcteryx.com/us/en/veilance",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "加拿大鹅",
+          "english": "Canada Goose",
+          "tier": "高端级",
+          "reason": "圆形臂章和寒地叙事提供外显的城市冬装符号；在这里作为高端生活方式品牌阅读，而非性能性价比推荐。",
+          "story": "圆形臂章和寒地叙事提供外显的城市冬装符号；在这里作为高端生活方式品牌阅读，而非性能性价比推荐。",
+          "products": [
+            {
+              "name": "Expedition Parka",
+              "description": "Canada Goose 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Chilliwack Bomber",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.canadagoose.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "eyewear",
+      "scope": "LUXURY",
+      "note": "镜架设计、手工和小批量作品构成定位；镜片、验光和佩戴适配需独立评估。",
+      "items": [
+        {
+          "name": "克罗心",
+          "english": "Chrome Hearts",
+          "tier": "奢华级",
+          "reason": "哥特式金属细节与银饰文化相连，偏向鲜明个性及潮流圈层认同。",
+          "story": "Chrome Hearts 把金属饰件与哥特式图案用于眼镜及其他作品；款式和渠道需要核对具体目录。",
+          "products": [
+            {
+              "name": "光学镜架",
+              "description": "以金属细节与镜腿装饰观察风格。"
+            },
+            {
+              "name": "太阳镜",
+              "description": "不同尺寸的视觉表达和佩戴体验差异明显。"
+            }
+          ],
+          "url": "https://www.chromehearts.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Jacques Marie Mage",
+          "english": "Jacques Marie Mage",
+          "tier": "奢华级",
+          "reason": "厚实廓形、命名和小批量设计构成收藏语境，识别更集中于眼镜与设计圈。",
+          "story": "Jacques Marie Mage 以鲜明的镜框比例和设计主题展开眼镜作品，实际尺寸对造型影响很大。",
+          "products": [
+            {
+              "name": "DEALAN",
+              "description": "从经典框型理解品牌的设计比例。"
+            },
+            {
+              "name": "ZEPHIRIN",
+              "description": "观察圆形与厚框之间的平衡。"
+            }
+          ],
+          "url": "https://www.jacquesmariemage.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "林德伯格",
+          "english": "LINDBERG",
+          "tier": "高端级",
+          "reason": "轻量结构与低标识设计突出，表达偏克制而非显眼装饰。",
+          "story": "LINDBERG 以镜架结构、材料和个性化选择构建产品，外观轻巧并不自动适合每张脸。",
+          "products": [
+            {
+              "name": "air titanium rim",
+              "description": "从钛结构理解设计语言。"
+            },
+            {
+              "name": "n.o.w. titanium",
+              "description": "结合不同前框形式比较佩戴体验。"
+            }
+          ],
+          "url": "https://lindberg.com/en",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "汤姆·福特",
+          "english": "Tom Ford",
+          "tier": "高端级",
+          "reason": "镜腿T形细节与时装形象相连，适合希望通过容易察觉的小细节完成都市身份表达的人。",
+          "story": "镜腿T形细节与时装形象相连，适合希望通过容易察觉的小细节完成都市身份表达的人。",
+          "products": [
+            {
+              "name": "Eyewear",
+              "description": "Tom Ford 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Sunglasses",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.tomfordfashion.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "small-leather",
+      "scope": "LUXURY",
+      "note": "小皮具是进入品牌世界的一个入口，不能用单品价格推断拥有者财富或整体现实身份。",
+      "items": [
+        {
+          "name": "爱马仕",
+          "english": "Hermès",
+          "tier": "奢华级",
+          "reason": "皮革、扣饰和细节构成辨识，更偏向熟悉品牌作品的人。",
+          "story": "爱马仕把皮具制作延伸至钱包、卡包与日常小件，尺寸、开合和收纳方式影响实际用途。",
+          "products": [
+            {
+              "name": "Béarn",
+              "description": "从扣饰与折叠结构理解系列。"
+            },
+            {
+              "name": "Calvi",
+              "description": "简洁卡包体现较低标识的日常表达。"
+            }
+          ],
+          "url": "https://www.hermes.com/us/en/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          },
+          "character": {
+            "headline": "经典皮具里的身份暗号。",
+            "signature": "Kelly 与 Birkin 的结构、提手和五金比例，以及丝巾的图案语言，让熟悉品牌的人从细节读懂选择。",
+            "audience": "偏爱经典皮具、工艺传统和克制生活方式的人。",
+            "expression": "可以是低标识的从容，也可以通过经典廓形形成很明确的品牌归属。"
+          }
+        },
+        {
+          "name": "路易威登",
+          "english": "Louis Vuitton",
+          "tier": "奢华级",
+          "reason": "经典图案带来较直接的品牌识别，礼赠和日常展示语境明确。",
+          "story": "路易威登的小皮具涵盖钱包、卡夹和钥匙配件，图案与材质选择对应不同表达强度。",
+          "products": [
+            {
+              "name": "Multiple 钱夹",
+              "description": "可比较帆布与皮革等具体版本。"
+            },
+            {
+              "name": "Pocket Organizer",
+              "description": "从小型收纳方式理解产品用途。"
+            }
+          ],
+          "url": "https://www.louisvuitton.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "旅行传统，成为日常的品牌标记。",
+            "signature": "Monogram、Damier 和经典旅行箱的视觉记忆，让手袋、旅行用品与小皮具拥有连续的身份语言。",
+            "audience": "重视清晰辨识、旅行文化和完整品牌生活方式的人。",
+            "expression": "显性的图案表达更容易被识别，皮革系列则可以呈现相对克制的气场。"
+          }
+        },
+        {
+          "name": "葆蝶家",
+          "english": "Bottega Veneta",
+          "tier": "奢华级",
+          "reason": "Intrecciato 编织提供低字标识别，依赖对材质和工艺语言的了解。",
+          "story": "Bottega Veneta 常以皮革编织作为视觉线索，小皮具让这种结构进入更日常的使用。",
+          "products": [
+            {
+              "name": "Intrecciato 钱包",
+              "description": "观察编织、边缘和收纳结构。"
+            },
+            {
+              "name": "编织卡包",
+              "description": "以尺寸和日常携带需求判断选择。"
+            }
+          ],
+          "url": "https://www.bottegaveneta.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "古驰",
+          "english": "Gucci",
+          "tier": "高端级",
+          "reason": "双G与马衔扣让小皮具也能成为可见的品牌符号，适合在日常随身物件中表达时装归属。",
+          "story": "双G与马衔扣让小皮具也能成为可见的品牌符号，适合在日常随身物件中表达时装归属。",
+          "products": [
+            {
+              "name": "GG Marmont Wallet",
+              "description": "Gucci 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Horsebit Card Case",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.gucci.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "让品牌，成为穿搭的主角。",
+            "signature": "双 G、竹节与马衔扣组合出浓厚的意大利时装风格，经典与复古元素带来鲜明存在感。",
+            "audience": "喜欢有态度的时装搭配、复古符号和可见品牌归属的人。",
+            "expression": "外显的标识与装饰适合成为造型焦点，重点在风格表达与时装认同。"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "scarves",
+      "scope": "LUXURY",
+      "note": "图案、材质和系法共同决定表达；品牌辨识并非每条围巾都一样明显。",
+      "items": [
+        {
+          "name": "爱马仕",
+          "english": "Hermès",
+          "tier": "奢华级",
+          "reason": "图案档案与丝巾文化突出，圈内可通过图案和配色识别作品。",
+          "story": "爱马仕的丝巾将图案设计与不同尺寸的织物相连，系法和色彩让同一件作品产生不同搭配。",
+          "products": [
+            {
+              "name": "90 方巾",
+              "description": "从图案和配色理解品牌的丝巾语言。"
+            },
+            {
+              "name": "Twilly",
+              "description": "窄长形式适合颈部、手腕或手袋搭配。"
+            }
+          ],
+          "url": "https://www.hermes.com/us/en/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          },
+          "character": {
+            "headline": "经典皮具里的身份暗号。",
+            "signature": "Kelly 与 Birkin 的结构、提手和五金比例，以及丝巾的图案语言，让熟悉品牌的人从细节读懂选择。",
+            "audience": "偏爱经典皮具、工艺传统和克制生活方式的人。",
+            "expression": "可以是低标识的从容，也可以通过经典廓形形成很明确的品牌归属。"
+          }
+        },
+        {
+          "name": "诺悠翩雅",
+          "english": "Loro Piana",
+          "tier": "奢华级",
+          "reason": "纤维与触感表达偏克制，适合不依赖显眼图案的穿搭。",
+          "story": "Loro Piana 的围巾与披肩以纤维、织法和颜色进入日常衣橱，需要按具体材质了解护理方式。",
+          "products": [
+            {
+              "name": "羊绒围巾",
+              "description": "从触感和厚薄判断使用季节。"
+            },
+            {
+              "name": "披肩系列",
+              "description": "尺寸和垂坠感决定穿搭方式。"
+            }
+          ],
+          "url": "https://www.loropiana.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "低标识衣橱的面料语言。",
+            "signature": "珍贵纤维、柔和色调和轻松廓形，使辨识更多落在触感、搭配和熟悉这类生活方式的人眼中。",
+            "audience": "喜欢克制穿搭、面料文化和安静生活方式的人。",
+            "expression": "表达偏向圈内审美，外露标识较少的款式不以人人认出为目标。"
+          }
+        },
+        {
+          "name": "艾特罗",
+          "english": "Etro",
+          "tier": "高端级",
+          "reason": "佩斯利等图案较鲜明，适合喜欢装饰性和色彩的人。",
+          "story": "Etro 把图案与纺织文化用于服装及配饰，围巾和披肩是理解其色彩组合的入口。",
+          "products": [
+            {
+              "name": "佩斯利围巾",
+              "description": "以纹样和色彩形成视觉重点。"
+            },
+            {
+              "name": "披肩系列",
+              "description": "根据织物与尺寸决定搭配场景。"
+            }
+          ],
+          "url": "https://www.etro.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "博柏利",
+          "english": "Burberry",
+          "tier": "高端级",
+          "reason": "格纹围巾是容易被大众认出的英伦符号，社交表达直接，适合作为高端衣橱的进阶标识。",
+          "story": "格纹围巾是容易被大众认出的英伦符号，社交表达直接，适合作为高端衣橱的进阶标识。",
+          "products": [
+            {
+              "name": "Check Cashmere Scarf",
+              "description": "Burberry 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Lightweight Check Scarf",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.burberry.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "hats",
+      "scope": "LUXURY",
+      "note": "以传统制帽、精品工艺和时装搭配为参考；不同帽型的适用场合差异很大。",
+      "items": [
+        {
+          "name": "洛克帽店",
+          "english": "Lock & Co. Hatters",
+          "tier": "奢华级",
+          "reason": "传统制帽与正式着装文化突出，身份表达依赖场合和对帽饰的了解。",
+          "story": "Lock & Co. 围绕不同帽型、材料与制帽服务展开产品，尺寸和头型适配比名称更重要。",
+          "products": [
+            {
+              "name": "礼帽与正式帽饰",
+              "description": "结合着装规范和具体活动判断。"
+            },
+            {
+              "name": "软呢帽",
+              "description": "从帽檐、帽冠和材料比较日常表达。"
+            }
+          ],
+          "url": "https://www.lockhatters.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "博尔萨利诺",
+          "english": "Borsalino",
+          "tier": "奢华级",
+          "reason": "经典软呢帽与电影般的造型联想鲜明，适合成熟且有风格的整体搭配。",
+          "story": "Borsalino 以帽饰为核心，毡帽与草帽提供不同季节及场合的选择。",
+          "products": [
+            {
+              "name": "毡帽系列",
+              "description": "观察帽檐与帽冠比例。"
+            },
+            {
+              "name": "巴拿马帽",
+              "description": "应核对材质、编织与尺寸。"
+            }
+          ],
+          "url": "https://www.borsalino.com/us_en",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Maison Michel",
+          "english": "Maison Michel",
+          "tier": "高端级",
+          "reason": "帽饰与时装造型相连，适合希望配饰成为造型重点的人。",
+          "story": "Maison Michel 的帽饰把经典帽型与当代搭配联系起来，不同材料和装饰对应不同表达。",
+          "products": [
+            {
+              "name": "Henrietta",
+              "description": "从宽檐帽形态理解系列。"
+            },
+            {
+              "name": "Virginie",
+              "description": "比较帽檐和帽冠带来的造型差异。"
+            }
+          ],
+          "url": "https://www.michel-paris.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "travel-goods",
+      "scope": "LUXURY",
+      "note": "旅行箱包兼有耐用工具和品牌展示属性；此处侧重品牌文化与代表作品。",
+      "items": [
+        {
+          "name": "路易威登",
+          "english": "Louis Vuitton",
+          "tier": "殿堂级",
+          "reason": "旅行箱传统和经典图案密切相连，硬箱与旅行袋构成较强的身份符号。",
+          "story": "路易威登的旅行用品把旅行箱制作语言延伸至硬箱、旅行袋与拉杆箱，不同形式的使用负担不同。",
+          "products": [
+            {
+              "name": "硬箱作品",
+              "description": "以结构与内部分隔理解旅行和陈列需求。"
+            },
+            {
+              "name": "Keepall",
+              "description": "软式旅行袋的经典入口。"
+            }
+          ],
+          "url": "https://www.louisvuitton.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          },
+          "character": {
+            "headline": "旅行传统，成为日常的品牌标记。",
+            "signature": "Monogram、Damier 和经典旅行箱的视觉记忆，让手袋、旅行用品与小皮具拥有连续的身份语言。",
+            "audience": "重视清晰辨识、旅行文化和完整品牌生活方式的人。",
+            "expression": "显性的图案表达更容易被识别，皮革系列则可以呈现相对克制的气场。"
+          }
+        },
+        {
+          "name": "高雅德",
+          "english": "Goyard",
+          "tier": "奢华级",
+          "reason": "图案与旅行皮具语境形成较明显圈内认同，表达偏品牌知识与经典造型。",
+          "story": "Goyard 围绕箱包与旅行用品展开产品，重复图案与经典廓形是认识其作品的入口。",
+          "products": [
+            {
+              "name": "Bourget 旅行箱",
+              "description": "按具体尺寸和运输需求理解。"
+            },
+            {
+              "name": "Croisière 旅行袋",
+              "description": "可从软式旅行收纳观察品牌语言。"
+            }
+          ],
+          "url": "https://www.goyard.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "日默瓦",
+          "english": "RIMOWA",
+          "tier": "高端级",
+          "reason": "沟槽箱体与旅行场景识别较强，偏向现代旅行生活方式。",
+          "story": "RIMOWA 以不同材质和尺寸的行李箱构建产品体系，外观、重量和旅行方式需要一起考虑。",
+          "products": [
+            {
+              "name": "Original",
+              "description": "从铝镁合金箱体和沟槽外观理解经典线索。"
+            },
+            {
+              "name": "Essential",
+              "description": "以另一种材料和配色比较旅行需求。"
+            }
+          ],
+          "url": "https://www.rimowa.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "Globe-Trotter",
+          "english": "Globe-Trotter",
+          "tier": "高端级",
+          "reason": "硬箱轮廓、包角与复古旅行叙事带有仪式感，行李也成为抵达时的个人风格宣言。",
+          "story": "硬箱轮廓、包角与复古旅行叙事带有仪式感，行李也成为抵达时的个人风格宣言。",
+          "products": [
+            {
+              "name": "Centenary",
+              "description": "Globe-Trotter 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Original",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.globe-trotter.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "home-fragrance",
+      "scope": "LUXURY",
+      "note": "以香氛、空间仪式和礼赠表达分层；气味偏好与实际使用安全需独立判断。",
+      "items": [
+        {
+          "name": "Trudon",
+          "english": "Trudon",
+          "tier": "奢华级",
+          "reason": "蜡烛与装饰性器皿构成历史及空间联想，圈内辨识较强。",
+          "story": "Trudon 以香氛蜡烛及相关作品构建家居气味世界，容器与香气共同影响空间感受。",
+          "products": [
+            {
+              "name": "Ernesto 香氛蜡烛",
+              "description": "按官网香调描述选择试闻方向。"
+            },
+            {
+              "name": "Abd El Kader 香氛蜡烛",
+              "description": "不同气味主题带来不同空间联想。"
+            }
+          ],
+          "url": "https://trudon.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "蒂普提克",
+          "english": "Diptyque",
+          "tier": "高端级",
+          "reason": "椭圆标签和气味命名易识别，兼有家居陈设与社交礼赠属性。",
+          "story": "Diptyque 的香氛把气味、图案和器皿联系起来，蜡烛和扩香产品有不同的使用方式。",
+          "products": [
+            {
+              "name": "Baies",
+              "description": "从经典香氛主题理解气味表达。"
+            },
+            {
+              "name": "Feu de Bois",
+              "description": "以木质及空间意象比较另一类风格。"
+            }
+          ],
+          "url": "https://www.diptyqueparis.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "Fornasetti",
+          "english": "Fornasetti",
+          "tier": "高端级",
+          "reason": "图案和器皿的视觉表达突出，偏向设计圈层而非只为香味。",
+          "story": "Fornasetti 将装饰艺术语言用于家居物品及香氛容器；购买需要区分器皿设计与香气偏好。",
+          "products": [
+            {
+              "name": "香氛蜡烛",
+              "description": "从器皿图案和香型共同判断。"
+            },
+            {
+              "name": "家居香氛作品",
+              "description": "具体系列及补充方式以官方目录为准。"
+            }
+          ],
+          "url": "https://www.fornasetti.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "祖·玛珑伦敦",
+          "english": "Jo Malone London",
+          "tier": "进阶级",
+          "reason": "奶油色礼盒与香氛搭配语言是常见的礼赠暗号，适合作为更易接近的高端生活方式入口。",
+          "story": "奶油色礼盒与香氛搭配语言是常见的礼赠暗号，适合作为更易接近的高端生活方式入口。",
+          "products": [
+            {
+              "name": "Lime Basil & Mandarin",
+              "description": "Jo Malone London 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Pomegranate Noir",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.jomalone.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tableware-crystal",
+      "scope": "LUXURY",
+      "note": "水晶、瓷器和金属餐具并列展示，层级以工艺与餐桌文化为参考，不比较材质高低。",
+      "items": [
+        {
+          "name": "巴卡拉",
+          "english": "Baccarat",
+          "tier": "奢华级",
+          "reason": "水晶切割与光影、餐桌礼仪相连，适合正式宴请和家居展示。",
+          "story": "Baccarat 围绕水晶杯器、照明与家居作品形成品牌世界，同一系列的不同尺寸对应不同用途。",
+          "products": [
+            {
+              "name": "Harcourt",
+              "description": "以切割和造型理解经典水晶语言。"
+            },
+            {
+              "name": "Masséna",
+              "description": "从另一种刻面和握持方式观察作品。"
+            }
+          ],
+          "url": "https://www.baccarat.com/en_us/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "迈森",
+          "english": "Meissen",
+          "tier": "奢华级",
+          "reason": "瓷器制作、装饰与收藏文化相连，圈内识别依赖图案与作品知识。",
+          "story": "Meissen 的瓷器涵盖餐具、人物和装饰作品，不同制作与绘画方式需要分别理解。",
+          "products": [
+            {
+              "name": "Swan Service 天鹅餐具",
+              "description": "从造型与装饰理解餐桌文化。"
+            },
+            {
+              "name": "瓷塑作品",
+              "description": "应按具体题材、版本和制作说明核对。"
+            }
+          ],
+          "url": "https://www.meissen.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "克里斯托夫",
+          "english": "Christofle",
+          "tier": "奢华级",
+          "reason": "银器与正式餐桌语境突出，适合礼赠及有仪式感的餐饮空间。",
+          "story": "Christofle 围绕餐具、银器与家居物品展开设计，镀银与纯银等材料规格应区分。",
+          "products": [
+            {
+              "name": "Mood",
+              "description": "把餐具与收纳陈设结合。"
+            },
+            {
+              "name": "Malmaison",
+              "description": "以装饰主题理解经典餐桌风格。"
+            }
+          ],
+          "url": "https://www.christofle.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "韦奇伍德",
+          "english": "Wedgwood",
+          "tier": "高端级",
+          "reason": "Jasperware 与英式茶席叙事把餐桌变成生活品位的展示，辨识来自经典纹样和待客仪式。",
+          "story": "Jasperware 与英式茶席叙事把餐桌变成生活品位的展示，辨识来自经典纹样和待客仪式。",
+          "products": [
+            {
+              "name": "Jasperware",
+              "description": "Wedgwood 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Renaissance Gold",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.wedgwood.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "home-textiles",
+      "scope": "LUXURY",
+      "note": "家纺的奢华表达较私密，面料、织法和尺寸需逐件比较，不以品牌保证睡眠效果。",
+      "items": [
+        {
+          "name": "芙蕾特",
+          "english": "Frette",
+          "tier": "奢华级",
+          "reason": "床品、织物与酒店式家居体验联系紧密，表达偏向生活方式和私域空间。",
+          "story": "Frette 以床品、浴室织物和家居纺织品构建体验，织法与洗护要求比统一价位标签更重要。",
+          "products": [
+            {
+              "name": "Doppio Ajour",
+              "description": "以床品细节与织物形式理解系列。"
+            },
+            {
+              "name": "Hotel Collection",
+              "description": "从酒店式床品语境观察选择。"
+            }
+          ],
+          "url": "https://www.frette.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "Sferra",
+          "english": "Sferra",
+          "tier": "奢华级",
+          "reason": "高端床品与纤维、织造叙事突出，辨识主要在家居与织物圈层。",
+          "story": "Sferra 的家纺覆盖不同织物和使用场景，床垫尺寸、季节及个人触感偏好决定适配。",
+          "products": [
+            {
+              "name": "Giza 45",
+              "description": "按具体单品核对纤维与织法说明。"
+            },
+            {
+              "name": "Giotto",
+              "description": "另一条床品系列的比较入口。"
+            }
+          ],
+          "url": "https://www.sferra.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Yves Delorme",
+          "english": "Yves Delorme",
+          "tier": "高端级",
+          "reason": "图案与整体卧室搭配较鲜明，适合以织物表达审美的人。",
+          "story": "Yves Delorme 以床品、浴巾和家居配饰组织居家空间，印花与纯色提供不同表达。",
+          "products": [
+            {
+              "name": "印花床品",
+              "description": "从图案、配色与房间搭配判断。"
+            },
+            {
+              "name": "浴室织物",
+              "description": "按材质与护理方式选择。"
+            }
+          ],
+          "url": "https://usa.yvesdelorme.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "lighting",
+      "scope": "LUXURY",
+      "note": "灯具既是照明也是空间作品；艺术定制、经典设计与功能照明采用不同标准。",
+      "items": [
+        {
+          "name": "Preciosa Lighting",
+          "english": "Preciosa Lighting",
+          "tier": "奢华级",
+          "reason": "水晶与大型空间装置结合，偏建筑、酒店及定制项目的奢华表达。",
+          "story": "Preciosa Lighting 将水晶用于灯光装置和空间项目，设计、安装及维护需要专业团队配合。",
+          "products": [
+            {
+              "name": "Signature Designs",
+              "description": "从定制灯光装置理解作品方向。"
+            },
+            {
+              "name": "Crystal 灯光作品",
+              "description": "按项目和材料说明核实具体方案。"
+            }
+          ],
+          "url": "https://www.preciosalighting.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "巴卡拉",
+          "english": "Baccarat",
+          "tier": "奢华级",
+          "reason": "水晶与灯光结合，具有显性装饰和餐厅、会客空间的仪式表达。",
+          "story": "Baccarat 把水晶制作延展至吊灯与灯具，尺寸和空间比例直接影响呈现。",
+          "products": [
+            {
+              "name": "Zenith",
+              "description": "从经典水晶吊灯语言理解作品。"
+            },
+            {
+              "name": "Mille Nuits",
+              "description": "另一种灯光和水晶装饰的代表入口。"
+            }
+          ],
+          "url": "https://www.baccarat.com/en_us/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "Flos",
+          "english": "Flos",
+          "tier": "高端级",
+          "reason": "设计师作品与现代空间文化突出，识别偏向建筑及设计圈层。",
+          "story": "Flos 的灯具覆盖不同设计师和照明形式，作品的光线与使用方式应与外形一起比较。",
+          "products": [
+            {
+              "name": "Arco",
+              "description": "以弧形落地灯结构理解经典设计。"
+            },
+            {
+              "name": "IC Lights",
+              "description": "从球形灯罩和支撑关系观察另一种语言。"
+            }
+          ],
+          "url": "https://flos.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "路易·波尔森",
+          "english": "Louis Poulsen",
+          "tier": "高端级",
+          "reason": "PH 与 Artichoke 的轮廓是设计圈可识别的经典符号，表达对空间、光线与丹麦设计传统的偏好。",
+          "story": "PH 与 Artichoke 的轮廓是设计圈可识别的经典符号，表达对空间、光线与丹麦设计传统的偏好。",
+          "products": [
+            {
+              "name": "PH 5",
+              "description": "Louis Poulsen 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "PH Artichoke",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.louispoulsen.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "art-collectibles",
+      "scope": "LUXURY",
+      "note": "此处仅作品牌化装饰艺术与工艺收藏入口，不给独立艺术家、拍卖成交或投资价值排位。",
+      "items": [
+        {
+          "name": "拉利克",
+          "english": "Lalique",
+          "tier": "奢华级",
+          "reason": "水晶与装饰艺术相连，适合重视题材和空间陈设的收藏语境。",
+          "story": "Lalique 的水晶作品把自然题材与装饰艺术语言结合，颜色、尺寸和制作方式影响具体呈现。",
+          "products": [
+            {
+              "name": "Bacchantes 花瓶",
+              "description": "以人物和浮雕主题观察作品。"
+            },
+            {
+              "name": "Mascots",
+              "description": "从动物与造型主题理解收藏线索。"
+            }
+          ],
+          "url": "https://www.lalique.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "Daum",
+          "english": "Daum",
+          "tier": "奢华级",
+          "reason": "玻璃艺术与色彩、雕塑感突出，收藏认同更依赖作品与制作知识。",
+          "story": "Daum 围绕玻璃艺术及雕塑作品展开产品，色彩和造型是理解其作品的主要入口。",
+          "products": [
+            {
+              "name": "动物雕塑",
+              "description": "具体版本、颜色和规格需单独核对。"
+            },
+            {
+              "name": "艺术家合作作品",
+              "description": "合作与版本信息以官方资料为准。"
+            }
+          ],
+          "url": "https://daum.fr/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "雅致",
+          "english": "Lladró",
+          "tier": "高端级",
+          "reason": "瓷塑、人物及合作作品形成装饰收藏语境，大众与圈内识别因题材而异。",
+          "story": "Lladró 的瓷艺作品涵盖人物、动物及当代设计，题材、釉色和空间搭配影响收藏偏好。",
+          "products": [
+            {
+              "name": "The Guest",
+              "description": "以当代造型与合作作品理解产品方向。"
+            },
+            {
+              "name": "瓷塑作品",
+              "description": "根据具体题材、版本及尺寸判断。"
+            }
+          ],
+          "url": "https://www.lladro.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "musical-instruments",
+      "scope": "SPECIALIST",
+      "note": "乐器同时是演奏工具和空间物品；传统、制作和艺术联想不替代演奏者的实际试琴。",
+      "items": [
+        {
+          "name": "施坦威",
+          "english": "Steinway & Sons",
+          "tier": "殿堂级",
+          "reason": "钢琴与音乐厅、演奏文化的联想强，既有圈内认同也有较高品牌识别。",
+          "story": "Steinway & Sons 以钢琴及相关服务连接演奏、学习和家庭空间，具体琴况与整音远比统一名称更重要。",
+          "products": [
+            {
+              "name": "Model D",
+              "description": "以音乐会三角钢琴理解旗舰语境。"
+            },
+            {
+              "name": "Model B",
+              "description": "从不同尺度比较家庭与演奏空间。"
+            }
+          ],
+          "url": "https://www.steinway.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "贝森朵夫",
+          "english": "Bösendorfer",
+          "tier": "奢华级",
+          "reason": "钢琴制作与维也纳音乐文化相连，识别偏向音乐及演奏圈层。",
+          "story": "Bösendorfer 的钢琴提供不同尺寸及特殊作品，房间声学和个人触键偏好需要实际体验。",
+          "products": [
+            {
+              "name": "Imperial 290",
+              "description": "从大型三角钢琴理解代表作品。"
+            },
+            {
+              "name": "214VC",
+              "description": "以不同规模观察空间与演奏需要。"
+            }
+          ],
+          "url": "https://www.boesendorfer.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "法奇奥里",
+          "english": "Fazioli",
+          "tier": "奢华级",
+          "reason": "专注高端三角钢琴，身份表达主要依赖对钢琴品牌和声音的熟悉。",
+          "story": "Fazioli 围绕三角钢琴的制作与演奏展开产品，型号尺度、声学和维护都属于使用体验。",
+          "products": [
+            {
+              "name": "F308",
+              "description": "大型演奏钢琴的代表入口。"
+            },
+            {
+              "name": "F228",
+              "description": "以另一种尺寸比较演奏及空间场景。"
+            }
+          ],
+          "url": "https://www.fazioli.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tea-coffee",
+      "scope": "SPECIALIST",
+      "note": "以精品茶、礼赠及门店体验为参考；不把品牌包装等同于茶叶或咖啡的产地等级。",
+      "items": [
+        {
+          "name": "玛黑兄弟",
+          "english": "Mariage Frères",
+          "tier": "高端级",
+          "reason": "茶文化、包装与礼赠仪式相连，更接近精品生活方式而非公认奢侈品层级。",
+          "story": "Mariage Frères 以茶、调配及相关器物构建品牌体验，茶种、配料与冲泡方式需要按具体作品理解。",
+          "products": [
+            {
+              "name": "Marco Polo",
+              "description": "从调配茶理解品牌的香气语言。"
+            },
+            {
+              "name": "茶叶礼盒",
+              "description": "茶品、规格及保质信息需逐项核对。"
+            }
+          ],
+          "url": "https://www.mariagefreres.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "福南梅森",
+          "english": "Fortnum & Mason",
+          "tier": "高端级",
+          "reason": "茶与食品礼赠、零售体验有明确文化联想，适合仪式与礼物场景。",
+          "story": "Fortnum & Mason 的商品覆盖茶、食品与礼篮；此处仅以茶与相关礼赠为阅读入口。",
+          "products": [
+            {
+              "name": "Royal Blend",
+              "description": "从调配茶了解品牌的茶品线。"
+            },
+            {
+              "name": "茶叶礼篮",
+              "description": "内容与规格以当前目录为准。"
+            }
+          ],
+          "url": "https://www.fortnumandmason.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "TWG Tea",
+          "english": "TWG Tea",
+          "tier": "高端级",
+          "reason": "茶品命名、包装和门店体验形成显性品牌语境，属于精品茶参考。",
+          "story": "TWG Tea 通过茶品、器皿与茶室体验呈现品牌，调味茶与原叶茶需要按配料分别判断。",
+          "products": [
+            {
+              "name": "1837 Black Tea",
+              "description": "按官网说明了解调配与冲泡方式。"
+            },
+            {
+              "name": "茶叶礼盒",
+              "description": "以收礼者偏好和实际茶品选择。"
+            }
+          ],
+          "url": "https://twgtea.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "luxury-hotels",
+      "scope": "LUXURY",
+      "note": "按品牌的代表性住宿体验分层；同集团不同酒店、房型、目的地和时期存在明显差异。",
+      "items": [
+        {
+          "name": "安缦",
+          "english": "Aman",
+          "tier": "殿堂级",
+          "reason": "私密、空间与目的地叙事突出，圈层表达常来自入住体验而非显眼标识。",
+          "story": "Aman 以酒店、度假空间与目的地体验构建品牌，每处物业的建筑和环境不同。",
+          "products": [
+            {
+              "name": "Amanpuri",
+              "description": "以度假物业理解品牌的空间叙事。"
+            },
+            {
+              "name": "Aman Tokyo",
+              "description": "从城市酒店观察另一种住宿体验。"
+            }
+          ],
+          "url": "https://www.aman.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "白马庄园",
+          "english": "Cheval Blanc",
+          "tier": "殿堂级",
+          "reason": "精品物业与高度个性化服务叙事较强，偏向熟悉高端旅行的人群。",
+          "story": "Cheval Blanc 的住宿作品分布于不同目的地，空间、餐饮和当地体验共同构成物业特点。",
+          "products": [
+            {
+              "name": "Cheval Blanc Paris",
+              "description": "城市住宿的代表入口。"
+            },
+            {
+              "name": "Cheval Blanc Randheli",
+              "description": "以海岛环境理解度假体验。"
+            }
+          ],
+          "url": "https://www.chevalblanc.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "瑰丽",
+          "english": "Rosewood Hotels & Resorts",
+          "tier": "奢华级",
+          "reason": "目的地与当地文化叙事明确，覆盖城市和度假场景，需逐物业判断。",
+          "story": "Rosewood 的酒店和度假物业强调与目的地的关系，品牌名称不代表每处物业有完全相同的体验。",
+          "products": [
+            {
+              "name": "Rosewood Hong Kong",
+              "description": "从城市酒店了解空间及服务方向。"
+            },
+            {
+              "name": "Rosewood Mayakoba",
+              "description": "以度假环境比较不同场景。"
+            }
+          ],
+          "url": "https://www.rosewoodhotels.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "丽思卡尔顿",
+          "english": "The Ritz-Carlton",
+          "tier": "高端级",
+          "reason": "酒店名称、服务仪式和目的地体验构成广泛的高端接待联想；具体物业和房型决定体验，不能一概而论。",
+          "story": "酒店名称、服务仪式和目的地体验构成广泛的高端接待联想；具体物业和房型决定体验，不能一概而论。",
+          "products": [
+            {
+              "name": "The Ritz-Carlton Kyoto",
+              "description": "The Ritz-Carlton 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "The Ritz-Carlton Maldives, Fari Islands",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.ritzcarlton.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "luxury-travel",
+      "scope": "LUXURY",
+      "note": "行程、船舶和日期决定实际体验；这里是品牌与旅行方式的定位参考。",
+      "items": [
+        {
+          "name": "贝尔蒙德",
+          "english": "Belmond",
+          "tier": "奢华级",
+          "reason": "列车、酒店与慢旅行叙事相连，仪式感和目的地文化较突出。",
+          "story": "Belmond 将列车、游船和住宿等旅行方式连接，不同项目在节奏、服务与目的地上差异明显。",
+          "products": [
+            {
+              "name": "Venice Simplon-Orient-Express",
+              "description": "从列车与餐饮仪式理解旅行方式。"
+            },
+            {
+              "name": "Royal Scotsman",
+              "description": "以不同线路和景观比较体验。"
+            }
+          ],
+          "url": "https://www.belmond.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "A&K",
+          "english": "Abercrombie & Kent",
+          "tier": "奢华级",
+          "reason": "定制与目的地旅行语境突出，价值更依赖行程设计和服务执行。",
+          "story": "Abercrombie & Kent 提供不同目的地与旅行形式，具体包含项目、接待团队和取消条件需按行程核对。",
+          "products": [
+            {
+              "name": "Tailor Made 定制旅行",
+              "description": "应核对实际包含服务。"
+            },
+            {
+              "name": "Luxury Small Group Journeys",
+              "description": "以小团形式理解另一类产品。"
+            }
+          ],
+          "url": "https://www.abercrombiekent.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "银海邮轮",
+          "english": "Silversea",
+          "tier": "奢华级",
+          "reason": "高端邮轮与探险旅行形成圈层认同，船舶与线路差异需要单独比较。",
+          "story": "Silversea 的旅行涵盖远洋与探险等形式，具体船舶、舱房和线路决定体验。",
+          "products": [
+            {
+              "name": "Ocean Voyages",
+              "description": "以远洋邮轮了解常规旅行形式。"
+            },
+            {
+              "name": "Expedition Voyages",
+              "description": "从探险线路理解目的地与服务要求。"
+            }
+          ],
+          "url": "https://www.silversea.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "private-aviation",
+      "scope": "LUXURY",
+      "note": "公务机制造品牌按代表机型及服务语境阅读；购买、包机和运营商是不同业务，不能混为一谈。",
+      "items": [
+        {
+          "name": "湾流",
+          "english": "Gulfstream",
+          "tier": "殿堂级",
+          "reason": "大型公务机与远程出行语境强，品牌识别主要发生在高端商务与航空圈层。",
+          "story": "Gulfstream 的公务机按航程、客舱和任务划分，具体飞行条件及运营保障需由专业方评估。",
+          "products": [
+            {
+              "name": "G800",
+              "description": "以大型远程公务机理解产品方向。"
+            },
+            {
+              "name": "G700",
+              "description": "从客舱与任务需求比较另一机型。"
+            }
+          ],
+          "url": "https://www.gulfstream.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "达索猎鹰",
+          "english": "Dassault Falcon",
+          "tier": "殿堂级",
+          "reason": "公务机与航空工程叙事相连，身份表达集中在实际航空使用场景。",
+          "story": "Dassault Falcon 是达索的公务机产品体系，航程、客舱和机场适应需求需要按具体任务比较。",
+          "products": [
+            {
+              "name": "Falcon 8X",
+              "description": "远程公务机的代表入口。"
+            },
+            {
+              "name": "Falcon 6X",
+              "description": "从不同客舱和任务条件理解产品。"
+            }
+          ],
+          "url": "https://www.dassaultfalcon.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "庞巴迪公务机",
+          "english": "Bombardier",
+          "tier": "殿堂级",
+          "reason": "Global 与 Challenger 形成不同任务层级，属于超高预算航空资产语境。",
+          "story": "Bombardier 的公务机围绕不同距离和客舱需求展开，购买或使用时需要把飞机与运营服务分别理解。",
+          "products": [
+            {
+              "name": "Global 7500",
+              "description": "以远程客舱和任务语境理解机型。"
+            },
+            {
+              "name": "Challenger 3500",
+              "description": "从另一规模比较公务飞行需求。"
+            }
+          ],
+          "url": "https://bombardier.com/en",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "fine-food",
+      "scope": "LUXURY",
+      "note": "按精品食品、礼赠和餐饮文化参考；口味、产地、保存条件不由品牌层级保证。",
+      "items": [
+        {
+          "name": "彼得罗西安",
+          "english": "Petrossian",
+          "tier": "奢华级",
+          "reason": "鱼子酱、餐饮和礼赠仪式感突出，辨识主要来自熟悉精品食品的人。",
+          "story": "Petrossian 以鱼子酱及精品食品展开产品，品种、规格和冷链条件需逐项核对。",
+          "products": [
+            {
+              "name": "鱼子酱系列",
+              "description": "按品种、产地和规格比较。"
+            },
+            {
+              "name": "品鉴礼盒",
+              "description": "确认包含内容、保存与食用建议。"
+            }
+          ],
+          "url": "https://www.petrossian.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "黛堡嘉莱",
+          "english": "Debauve & Gallais",
+          "tier": "奢华级",
+          "reason": "巧克力与礼盒、传统店铺体验相连，偏向文化与礼赠表达。",
+          "story": "Debauve & Gallais 围绕巧克力与糖果作品展开，配料和口味偏好决定礼物是否合适。",
+          "products": [
+            {
+              "name": "Pistoles",
+              "description": "以经典小圆片形式理解作品。"
+            },
+            {
+              "name": "巧克力礼盒",
+              "description": "按配料和保质信息挑选。"
+            }
+          ],
+          "url": "https://debauve-et-gallais.fr/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "LIMITED"
+          }
+        },
+        {
+          "name": "La Maison du Chocolat",
+          "english": "La Maison du Chocolat",
+          "tier": "高端级",
+          "reason": "精品巧克力与礼赠语境明确，表达偏精致体验而非高可见度身份符号。",
+          "story": "La Maison du Chocolat 以巧克力、甜点及礼盒组织作品，甘纳许、果仁及口味组合各有差异。",
+          "products": [
+            {
+              "name": "Ganache 甘纳许巧克力",
+              "description": "从内馅与口味理解作品。"
+            },
+            {
+              "name": "Praliné 果仁巧克力",
+              "description": "按坚果和配料需求选择。"
+            }
+          ],
+          "url": "https://www.lamaisonduchocolat.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-27",
+            "status": "REACHABLE"
+          }
+        },
+        {
+          "name": "歌帝梵",
+          "english": "Godiva",
+          "tier": "进阶级",
+          "reason": "金色礼盒与巧克力礼赠形象提供易于识别的品牌仪式感，是较易接近的高端礼品入口。",
+          "story": "金色礼盒与巧克力礼赠形象提供易于识别的品牌仪式感，是较易接近的高端礼品入口。",
+          "products": [
+            {
+              "name": "Gold Collection",
+              "description": "Godiva 的代表系列；从标志性造型、品牌语言与适用场景理解它的吸引力。"
+            },
+            {
+              "name": "Truffles",
+              "description": "另一条具有辨识度的品牌作品线，具体款式与当前供应以官方目录为准。"
+            }
+          ],
+          "url": "https://www.godiva.com/",
+          "sourceReview": {
+            "checkedAt": "2026-10-28",
+            "status": "LIMITED"
+          }
+        }
+      ]
+    }
+  ]
+}

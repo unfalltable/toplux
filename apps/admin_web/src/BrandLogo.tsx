@@ -1,0 +1,2 @@
+type Row=Record<string,any>;
+export default function BrandLogo({media,name,english,className=''}:{media?:Row,name:string,english?:string,className?:string}){const logo=media?.logo;return <span className={'official-brand-logo '+(logo?.dark?'logo-on-dark ':'')+className}>{logo?<img src={logo.src} alt={name+'品牌标识'} loading="lazy" decoding="async"/>:<span className="brand-name-fallback">{english||name}</span>}</span>;}

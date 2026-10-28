@@ -1,0 +1,58 @@
+import sharp from 'sharp';
+
+import assert from 'node:assert/strict';
+import {writeFileSync} from 'node:fs';
+const base='http://127.0.0.1:3100/api/v1';
+let cookie='',csrf='';
+async function call(path:string,method='GET',body?:any,key?:string){return fetch(base+path,{method,headers:{'Content-Type':'application/json',Cookie:cookie,'X-CSRF-Token':csrf,...(key?{'Idempotency-Key':key}:{})},body:body===undefined?undefined:JSON.stringify(body)});}
+async function json(path:string,method='GET',body?:any,key?:string){const r=await call(path,method,body,key);const d=await r.json();assert.ok(r.ok,JSON.stringify(d));return d;}
+async function login(name:string){const r=await call('/auth/local','POST',{name});cookie=r.headers.get('set-cookie')!.split(';')[0];const u=await r.json();csrf=u.csrf;}
+const cats=(await json('/categories')).items;assert.equal(cats.length,24);
+assert.equal((await call('/me/orders')).status,401);
+await login('user');
+const noCsrf=await fetch(base+'/assets',{method:'POST',headers:{'Content-Type':'application/json',Cookie:cookie},body:'{}'});assert.equal(noCsrf.status,403);
+assert.equal((await call('/admin/overview')).status,403);
+const logo=await sharp({create:{width:64,height:64,channels:3,background:'#8b641f'}}).png().toBuffer();
+const a=await json('/assets','POST',{data:'data:image/png;base64,'+logo.toString('base64')});
+const m=await json('/merchants','POST',{displayName:'接口测试'+Date.now(),logoAssetId:a.id});
+assert.ok((await json('/me/merchants')).items.some((x:any)=>x.id===m.id));
+const body={merchantId:m.id,categoryId:cats[0].id,amountFen:20000};
+const o=await json('/contributions/orders','POST',body,'smoke-'+m.id);
+assert.equal((await json('/contributions/orders','POST',body,'smoke-'+m.id)).id,o.id);
+assert.equal((await call('/contributions/orders','POST',{...body,amountFen:30000},'smoke-'+m.id)).status,409);
+assert.equal((await call('/contributions/orders','POST',{...body,netFen:99999},'bad-'+m.id)).status,400);
+await Promise.all(Array.from({length:10},()=>json('/sandbox/orders/'+o.id+'/pay','POST',{})));
+const entry=(await json('/categories/'+cats[0].id+'/merchant-board')).items.find((e:any)=>e.merchant_id===m.id);assert.equal(entry.net_fen,20000);
+assert.equal((await json('/merchants/'+m.id)).links.length,0);
+assert.equal((await json('/categories/'+cats[1].id+'/merchant-board')).items.filter((e:any)=>e.merchant_id===m.id).length,0);
+await json('/sandbox/orders/'+o.id+'/refund','POST',{amountFen:5000},'refund-'+m.id);
+await json('/sandbox/orders/'+o.id+'/refund','POST',{amountFen:5000},'refund-'+m.id);
+assert.equal((await json('/categories/'+cats[0].id+'/merchant-board')).items.find((e:any)=>e.merchant_id===m.id).net_fen,15000);
+assert.equal((await call('/sandbox/orders/'+o.id+'/refund','POST',{amountFen:16000},'over-'+m.id)).status,409);
+assert.equal((await call('/merchants/'+m.id+'/links','POST',{type:'STORE',platform:'test',url:'https://127.0.0.1/'})).status,400);
+const l=await json('/merchants/'+m.id+'/links','POST',{type:'STORE',platform:'淘宝',url:'https://www.taobao.com/'});
+assert.equal((await json('/merchants/'+m.id)).links.length,0);
+await login('editor');
+assert.equal((await call('/sandbox/orders/'+o.id+'/pay','POST',{})).status,404);
+assert.equal((await json('/admin/overview')).orders.length,0);
+const p=await json('/admin/profiles','POST',{categoryId:cats[1].id,name:'草稿测试'+Date.now(),english:'TEST',tier:'精品级',summary:'测试资料说明',recognition:'资料不足',occasion:'测试',source:'演示'});
+assert.equal((await call('/brands/'+p.id)).status,404);
+assert.equal((await call('/admin/profiles/'+p.id+'/decision','POST',{approved:true,reason:'自审'})).status,403);
+await login('reviewer');
+await json('/admin/profiles/'+p.id+'/decision','POST',{approved:true,reason:'第二人复核测试通过'});
+assert.equal((await call('/brands/'+p.id)).status,200);
+await json('/admin/links/'+l.id+'/decision','POST',{approved:true,reason:'公开平台首页测试'});
+assert.equal((await json('/merchants/'+m.id)).links.length,1);
+await json('/admin/merchants/'+m.id+'/visibility','POST',{visible:false,reason:'测试隐藏不改账'});
+assert.equal((await json('/categories/'+cats[0].id+'/merchant-board')).items.filter((e:any)=>e.merchant_id===m.id).length,0);
+await json('/admin/merchants/'+m.id+'/visibility','POST',{visible:true,reason:'恢复测试'});
+assert.equal((await json('/categories/'+cats[0].id+'/merchant-board')).items.find((e:any)=>e.merchant_id===m.id).net_fen,15000);
+await login('user');
+const cross=await json('/contributions/orders','POST',{merchantId:m.id,categoryId:cats[1].id,amountFen:10000},'cross-'+m.id);
+await json('/sandbox/orders/'+cross.id+'/pay','POST',{});
+const global=(await json('/merchant-board')).items.filter((e:any)=>e.merchant_id===m.id);
+assert.equal(global.length,1);assert.equal(global[0].net_fen,25000);assert.equal(global[0].gross_fen,30000);assert.equal(global[0].refunded_fen,5000);
+assert.equal((await json('/merchants/'+m.id)).entries.length,2);
+assert.equal((await call('/admin/categories','POST',{name:'拒绝',slug:'denied',sortOrder:1,active:true})).status,403);
+writeFileSync('artifacts/api-result.json',JSON.stringify({ok:true,checks:['anonymous rejection','csrf','rbac','three fields no links','idempotent order','10x payments','refund retry','overrefund','category isolation','private order','draft isolation','second reviewer publish','link review','hide restore without funds loss','global cross-category merge','catalog authorization']},null,2));
+console.log('API integration smoke passed');

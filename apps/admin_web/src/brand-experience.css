@@ -1,0 +1,85 @@
+/* Brand imagery leads; controls stay quiet, grouped and readable. */
+.category-navigator{margin:28px 0 26px;border-block:1px solid var(--line)}
+.category-family-tabs{display:flex;flex-wrap:wrap;gap:2px 25px;padding:10px 0}
+.category-family-tabs button{padding:14px 0;font-size:12px;color:#727566;position:relative}
+.category-family-tabs button[aria-pressed=true]{color:#1e3023}
+.category-family-tabs button[aria-pressed=true]:after{content:'';height:2px;background:#927c4c;position:absolute;left:0;right:0;bottom:3px}
+.category-selection{display:flex;align-items:flex-start;gap:20px;border-top:1px solid var(--line);padding:17px 0}
+.category-subcategories{display:flex;flex-wrap:wrap;gap:7px;flex:1;min-width:0}
+.category-subcategories button{padding:9px 13px;font-size:12px;gap:8px}
+.category-subcategories button[aria-pressed=true]{background:#203127;color:#f6f3e9}
+.category-subcategories small{font-size:10px;opacity:.65}
+.category-all-select{display:flex;position:relative;align-items:center;border:1px solid var(--line);max-width:220px;flex-shrink:0}
+.category-all-select>span{font-size:10px;color:var(--muted);padding-left:12px;white-space:nowrap}
+.category-all-select select{appearance:none;background:transparent;border:0;padding:12px 31px 12px 12px;max-width:140px;font-size:12px;color:#203127;cursor:pointer}
+.category-all-select>svg{position:absolute;right:10px;pointer-events:none}
+.category-directory{margin:35px 0;display:grid;grid-template-columns:1fr 1fr;column-gap:60px;row-gap:38px}
+.category-directory section{border-top:1px solid #969a8866;padding-top:20px}
+.category-directory h2{font:25px/1.6 SimSun,serif;margin:0 0 13px}
+.category-directory section>div{display:grid;grid-template-columns:1fr 1fr;column-gap:20px}
+.category-directory .category-tile{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;min-height:54px;background:transparent;border:0;border-bottom:1px solid var(--line);padding:13px 0;text-align:left}
+.category-directory .category-tile:before,.category-directory .category-tile:after{display:none}
+.category-directory .category-tile span{font:13px/1.5 inherit;letter-spacing:0}
+.category-directory .category-tile small{font-size:10px;color:var(--muted)}
+.category-directory .category-tile:hover{color:#927c4c}
+.official-brand-logo{display:flex;align-items:center;justify-content:center;background:#fff;overflow:hidden;padding:17px 26px}
+.official-brand-logo.logo-on-dark{background:#19281e}
+.official-brand-logo img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain}
+.brand-name-fallback{font:26px/1.3 Georgia,serif;color:#273628;letter-spacing:1px;text-align:center;overflow-wrap:anywhere}
+.public-app .catalog-art{height:365px;display:grid;grid-template-rows:1fr 84px;position:relative;padding:0;background:#e9eae4;overflow:hidden}
+.public-app .catalog-art:before,.public-app .catalog-art:after{display:none}
+.catalog-photo{display:flex;align-items:center;justify-content:center;width:100%;height:100%;overflow:hidden;background:#eeeee9}
+.catalog-photo>img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.catalog-art:hover .catalog-photo>img{transform:scale(1.025)}
+.catalog-art>.official-brand-logo{height:84px;max-width:100%;width:100%;padding:20px 70px}
+.catalog-art>.official-brand-logo img{max-height:44px}
+.public-app .catalog-art .art-caption{position:absolute;bottom:100px;left:17px;right:17px;display:flex;align-items:center;justify-content:space-between;color:#fff;text-shadow:0 1px 5px #000}
+.catalog-photo-missing{font:34px/1.5 Georgia,serif;text-align:center;color:#293a2b;padding:28px;overflow-wrap:anywhere}
+.catalog-photo-missing small{display:block;font:11px/2.5 "Microsoft YaHei",sans-serif;color:#707867;letter-spacing:2px}
+.catalog-copy{background:transparent}
+.atlas-intro .atlas-photo{background:#e5e7dc;overflow:hidden}
+.atlas-intro .atlas-photo>img{width:100%;height:100%;object-fit:cover}
+.atlas-intro .atlas-photo:after{display:none}
+.brand-atlas .atlas-brand-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:0;padding:0;margin:28px 0 35px;background:#e8ebdf;min-height:520px}
+.atlas-hero-copy{padding:44px clamp(24px,4vw,58px);display:flex;flex-direction:column;align-items:flex-start}
+.atlas-hero-copy>.official-brand-logo{height:100px;width:240px;max-width:100%;padding:15px 28px;margin-bottom:27px}
+.atlas-brand-hero .atlas-brand-title h1{font-size:clamp(34px,3.8vw,54px);margin:12px 0 4px;font-weight:400}
+.atlas-brand-hero .atlas-brand-title p{font-size:13px;line-height:2.1;color:#4e5a4a;max-width:34em}
+.atlas-brand-hero .atlas-brand-title .atlas-english-name{font:18px/1.6 Georgia,serif;margin:0 0 21px;color:#82724f}
+.atlas-brand-hero .atlas-brand-actions{margin-top:auto;padding-top:26px;gap:12px;align-self:auto}
+.atlas-hero-image{margin:0;position:relative;min-width:0;overflow:hidden;background:#efefec}
+.atlas-hero-image>img{display:block;width:100%;height:100%;min-height:520px;object-fit:cover}
+.atlas-hero-image figcaption{position:absolute;bottom:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;gap:15px;padding:16px 23px;background:#17251de6;color:#f3eddf}
+.atlas-hero-image figcaption>span{font:17px/1.5 Georgia,serif}
+.atlas-hero-image figcaption a{font-size:10px;display:inline-flex;gap:7px;align-items:center}
+.atlas-hero-type{display:flex;align-items:center;justify-content:center;background:#1a2c20;color:#d0bf8e;font:46px/1.4 Georgia,serif;overflow-wrap:anywhere;text-align:center;padding:45px}
+.atlas-brand-character{padding:42px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1.2fr 1fr;gap:70px}
+.atlas-brand-character>div>span{font-size:11px;color:#877247}
+.atlas-brand-character h2{font:26px/1.8 SimSun,serif;margin:15px 0 0;color:#263526;max-width:26em}
+.atlas-character-details{display:grid;gap:20px}
+.atlas-character-details h3{font-size:12px;font-weight:400;color:#877247;margin:0 0 7px}
+.atlas-character-details p{font-size:12px;line-height:2;color:#626a59;margin:0}
+.brand-atlas .atlas-reading{max-width:900px}
+.brand-atlas .atlas-products{gap:30px}
+.brand-atlas .atlas-products article{padding:0;border:0;min-width:0}
+.atlas-products figure{margin:0 0 18px;position:relative;background:#edeee8}
+.atlas-products figure>img{width:100%;aspect-ratio:4/4.5;object-fit:contain;display:block}
+.atlas-products figcaption{position:absolute;bottom:0;right:0;font-size:10px;background:#f9f9f2ed;padding:8px 12px}
+.atlas-products figcaption a{display:flex;align-items:center;gap:8px}
+.atlas-product-unavailable{aspect-ratio:4/4.5;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#e8eade;padding:24px;text-align:center;margin-bottom:18px}
+.atlas-product-unavailable>span{font:25px/1.5 Georgia,SimSun,serif;overflow-wrap:anywhere}
+.atlas-product-unavailable small{font-size:10px;color:var(--muted);margin-top:17px}
+.atlas-media-source a{display:inline-flex;gap:8px;align-items:center;font-size:12px;text-decoration:underline;text-underline-offset:5px}
+.atlas-media-source small{display:block;font-size:10px;color:var(--muted)}
+.atlas-section .partner-social-context{display:grid;grid-template-columns:1fr 1fr;gap:24px 35px;margin-bottom:28px}
+.atlas-section .partner-social-context>div{border-top:1px solid var(--line);padding-top:16px}
+.atlas-section .partner-social-context dt{font-size:11px;color:#877247;margin-bottom:8px}
+.atlas-section .partner-social-context dd{margin:0;font-size:13px;line-height:2}
+@media(min-width:1500px){.catalog-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.public-app .catalog-art{height:400px}}
+@media(max-width:1000px){.category-directory{column-gap:30px}.category-directory section>div{grid-template-columns:1fr}.brand-atlas .atlas-brand-hero{grid-template-columns:1fr 1fr;min-height:450px}.atlas-hero-copy{padding:30px 25px}.atlas-hero-image>img{min-height:450px}.atlas-brand-character{gap:35px}.atlas-brand-character h2{font-size:23px}.catalog-art>.official-brand-logo{padding-inline:40px}.category-selection{flex-direction:column}.category-all-select{align-self:flex-end}.category-family-tabs{gap:0 21px}}
+@media(max-width:650px){.category-family-tabs{gap:0 18px;padding:7px 0}.category-family-tabs button{font-size:11px;padding:12px 0}.category-selection{padding:12px 0;gap:12px}.category-subcategories{gap:3px}.category-subcategories button{font-size:11px;padding:9px 10px}.category-all-select{width:100%;max-width:none;justify-content:space-between}.category-all-select select{width:75%;max-width:none}.category-directory{grid-template-columns:1fr;gap:26px}.category-directory section>div{grid-template-columns:1fr 1fr}.category-directory h2{font-size:23px}.category-directory .category-tile{gap:6px}.category-directory .category-tile span{font-size:12px}.category-directory .category-tile small{font-size:9px}.public-app .catalog-art{height:330px;grid-template-rows:1fr 75px}.catalog-art>.official-brand-logo{height:75px;padding:18px 58px}.catalog-art>.official-brand-logo img{max-height:39px}.public-app .catalog-art .art-caption{bottom:88px;font-size:10px}.brand-atlas .atlas-brand-hero{grid-template-columns:1fr;margin:20px 0 25px}.atlas-hero-copy{padding:28px 24px}.atlas-hero-copy>.official-brand-logo{height:83px;width:210px;margin-bottom:21px}.atlas-brand-hero .atlas-brand-title h1{font-size:38px}.atlas-brand-hero .atlas-brand-title p{font-size:12px}.atlas-hero-image>img{height:340px;min-height:0}.atlas-hero-image figcaption{padding:13px 17px}.atlas-brand-character{grid-template-columns:1fr;gap:25px;padding:30px 0}.atlas-brand-character h2{font-size:24px}.atlas-character-details{grid-template-columns:1fr 1fr;gap:20px}.atlas-character-details p{font-size:11px}.atlas-products figure>img{aspect-ratio:4/4}.atlas-section .partner-social-context{grid-template-columns:1fr;gap:18px}.atlas-section .partner-social-context dd{font-size:12px}.atlas-product-unavailable{aspect-ratio:4/3}.atlas-hero-type{min-height:200px;font-size:38px}}
+@media(prefers-reduced-motion:reduce){.catalog-photo>img{transition:none}.catalog-art:hover .catalog-photo>img{transform:none}}
+
+.catalog-photo>img{object-fit:contain;padding:12px}.atlas-hero-image>img{object-fit:contain}.atlas-intro .atlas-photo>img{object-fit:contain}.atlas-audience{border-left:2px solid #9f8958;padding:10px 0 10px 23px;margin:0 0 30px}.atlas-audience h3{margin-bottom:8px}.official-brand-logo img{min-width:0}.atlas-brand-character h2{max-width:18em}
+
+.podium-brand .logo-frame img{object-fit:contain;border-radius:0;padding:14px;background:#fff}.rank-row-open>img{object-fit:contain;border-radius:0;padding:7px;background:#fff}.detail-heading>img{object-fit:contain;border-radius:0;padding:12px;width:180px;height:90px;background:#fff}.podium-brand img.logo-on-dark,.rank-row-open>img.logo-on-dark,.detail-heading>img.logo-on-dark{background:#19281e}

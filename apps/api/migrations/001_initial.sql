@@ -1,0 +1,26 @@
+
+CREATE TABLE IF NOT EXISTS categories(id uuid PRIMARY KEY, slug text UNIQUE NOT NULL,name text NOT NULL,active boolean NOT NULL DEFAULT true, sort_order int NOT NULL);
+CREATE TABLE IF NOT EXISTS profiles(id uuid PRIMARY KEY, category_id uuid REFERENCES categories(id), name text NOT NULL, english text NOT NULL, tier text NOT NULL, summary text NOT NULL, recognition text NOT NULL, occasion text NOT NULL, source text NOT NULL, state text NOT NULL DEFAULT 'PUBLISHED', demo boolean NOT NULL DEFAULT true, author text NOT NULL DEFAULT 'seed', reviewer text, version int NOT NULL DEFAULT 1, updated_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS users(id uuid PRIMARY KEY,name text UNIQUE NOT NULL,role text NOT NULL);
+CREATE TABLE IF NOT EXISTS sessions(id text PRIMARY KEY,user_id uuid REFERENCES users(id),csrf text NOT NULL,expires_at timestamptz NOT NULL);
+CREATE TABLE IF NOT EXISTS assets(id uuid PRIMARY KEY, owner_id uuid REFERENCES users(id),data text NOT NULL);
+CREATE TABLE IF NOT EXISTS merchants(id uuid PRIMARY KEY,owner_id uuid REFERENCES users(id),name text NOT NULL,logo_asset_id uuid REFERENCES assets(id),description text NOT NULL DEFAULT '',state text NOT NULL DEFAULT 'APPROVED', UNIQUE(owner_id,name));
+CREATE TABLE IF NOT EXISTS merchant_categories(id uuid PRIMARY KEY,merchant_id uuid REFERENCES merchants(id),category_id uuid REFERENCES categories(id),gross_fen bigint NOT NULL DEFAULT 0,refunded_fen bigint NOT NULL DEFAULT 0,net_fen bigint NOT NULL DEFAULT 0,attained_at timestamptz NOT NULL DEFAULT now(),UNIQUE(merchant_id,category_id),CHECK(gross_fen>=0 AND refunded_fen>=0 AND refunded_fen<=gross_fen AND net_fen=gross_fen-refunded_fen));
+CREATE TABLE IF NOT EXISTS orders(id uuid PRIMARY KEY,actor_id uuid REFERENCES users(id),entry_id uuid REFERENCES merchant_categories(id),amount_fen bigint NOT NULL CHECK(amount_fen>=10000 AND amount_fen<=10000000 AND amount_fen%100=0),state text NOT NULL DEFAULT 'PENDING',created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS receipts(id uuid PRIMARY KEY,order_id uuid REFERENCES orders(id),provider_ref text UNIQUE NOT NULL, amount_fen bigint NOT NULL,accepted boolean NOT NULL);
+CREATE UNIQUE INDEX IF NOT EXISTS receipt_order ON receipts(order_id) WHERE accepted;
+CREATE TABLE IF NOT EXISTS refunds(id uuid PRIMARY KEY, order_id uuid REFERENCES orders(id),amount_fen bigint NOT NULL CHECK(amount_fen>0),state text NOT NULL,created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS rank_ledger(id uuid PRIMARY KEY,entry_id uuid REFERENCES merchant_categories(id),order_id uuid REFERENCES orders(id),refund_id uuid REFERENCES refunds(id),kind text NOT NULL,delta_fen bigint NOT NULL,created_at timestamptz NOT NULL DEFAULT now(),CHECK((kind='CREDIT' AND delta_fen>0 AND refund_id IS NULL) OR(kind='REFUND' AND delta_fen<0 AND refund_id IS NOT NULL)));
+CREATE UNIQUE INDEX IF NOT EXISTS ledger_credit ON rank_ledger(order_id) WHERE kind='CREDIT';
+CREATE UNIQUE INDEX IF NOT EXISTS ledger_refund ON rank_ledger(refund_id) WHERE kind='REFUND';
+CREATE OR REPLACE FUNCTION immutable_ledger() RETURNS trigger LANGUAGE plpgsql AS $$ BEGIN RAISE EXCEPTION 'immutable ledger'; END $$;
+DROP TRIGGER IF EXISTS ledger_immutable ON rank_ledger;
+CREATE TRIGGER ledger_immutable BEFORE UPDATE OR DELETE ON rank_ledger FOR EACH ROW EXECUTE FUNCTION immutable_ledger();
+CREATE TABLE IF NOT EXISTS idempotency(actor_id uuid,operation text,key text,body_hash text NOT NULL,response jsonb NOT NULL,PRIMARY KEY(actor_id,operation,key));
+CREATE TABLE IF NOT EXISTS links(id uuid PRIMARY KEY,merchant_id uuid REFERENCES merchants(id),type text NOT NULL,platform text NOT NULL,url text NOT NULL,state text NOT NULL DEFAULT 'PENDING',live_until timestamptz);
+CREATE TABLE IF NOT EXISTS favorites(id uuid PRIMARY KEY,user_id uuid REFERENCES users(id),profile_id uuid REFERENCES profiles(id),UNIQUE(user_id,profile_id));
+CREATE TABLE IF NOT EXISTS feedback(id uuid PRIMARY KEY,user_id uuid REFERENCES users(id),target text,reason text NOT NULL,state text NOT NULL DEFAULT 'OPEN',resolution text);
+CREATE TABLE IF NOT EXISTS audit_logs(id uuid PRIMARY KEY,actor_id uuid,action text,target text,reason text,created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS outbox(id uuid PRIMARY KEY,event_type text,payload jsonb,created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS outbound_events(id uuid PRIMARY KEY,link_id uuid REFERENCES links(id),created_at timestamptz NOT NULL DEFAULT now());
+CREATE INDEX IF NOT EXISTS board_sort ON merchant_categories(category_id,net_fen DESC,attained_at,id);

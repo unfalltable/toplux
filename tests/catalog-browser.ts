@@ -1,0 +1,70 @@
+
+import {chromium} from 'playwright';
+import {writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const browser=await chromium.launch({channel:'chrome',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+const stamp=String(Date.now()),category='验收品类'+stamp,brand='验收品牌'+stamp;
+async function login(label:string,account:string){
+ await page.locator('.account').click();await page.getByRole('button',{name:label,exact:false}).click();
+ await page.locator('.account').filter({hasText:account}).waitFor();
+ await page.locator('.admin-tabs').waitFor();
+}
+async function field(name:string,value:string){await page.locator('.catalog-modal [name="'+name+'"]').fill(value);}
+try{
+ await page.goto('http://127.0.0.1:3100/#admin');
+ await page.getByRole('button',{name:'选择后台演示账号'}).click();
+ await page.getByRole('button',{name:'管理员',exact:false}).click();
+ await page.getByRole('button',{name:'品类管理',exact:false}).click();
+ await page.locator('.catalog-table').waitFor();
+ await page.getByRole('button',{name:'新增品类',exact:false}).click();
+ await field('name',category);await field('slug','test-'+stamp);await field('sortOrder','900');
+ await page.getByRole('button',{name:'保存品类',exact:false}).click();
+ await page.locator('.catalog-modal').waitFor({state:'hidden'});
+ let row=page.locator('.catalog-table tbody tr').filter({hasText:category});
+ await row.getByRole('button',{name:'编辑',exact:false}).click();
+ await field('name',category+'改');await page.locator('[name=active]').selectOption('false');
+ await page.getByRole('button',{name:'保存品类',exact:false}).click();
+ await page.locator('.catalog-modal').waitFor({state:'hidden'});
+ row=page.locator('.catalog-table tbody tr').filter({hasText:category+'改'});assert.match(await row.innerText(),/已停用/);
+ await page.getByRole('button',{name:'品牌管理',exact:false}).click();
+ await page.getByRole('button',{name:'新增品牌',exact:false}).click();
+ for(const [k,v]of Object.entries({name:brand,english:'DEMO',summary:'这是明确标记的界面验收演示资料。',recognition:'资料不足',occasion:'演示场合',source:'UI自动化生成的虚构测试资料'}))await field(k,v);
+ await page.getByRole('button',{name:'保存并提交审核'}).click();
+ await page.locator('.catalog-modal').waitFor({state:'hidden'});
+ await login('内容审核','reviewer');
+ await page.getByRole('button',{name:'品牌管理',exact:false}).click();
+ row=page.locator('.catalog-table tbody tr').filter({hasText:brand});
+ await row.getByRole('button',{name:'复核',exact:true}).click();
+ await field('reason','第二人复核，确认仅为演示资料');
+ await page.getByRole('button',{name:'确认并记录审计'}).click();
+ await page.locator('.catalog-modal').waitFor({state:'hidden'});
+ assert.match(await row.innerText(),/已发布/);
+ await login('管理员','admin');
+ await page.getByRole('button',{name:'品牌管理',exact:false}).click();
+ row=page.locator('.catalog-table tbody tr').filter({hasText:brand});
+ await row.getByRole('button',{name:'编辑',exact:false}).click();
+ await field('summary','品牌编辑后经审核发布的演示新定位。');
+ await page.getByRole('button',{name:'保存并提交审核'}).click();
+ await page.locator('.catalog-modal').waitFor({state:'hidden'});
+ await login('内容审核','reviewer');
+ await page.getByRole('button',{name:'修订审核',exact:false}).click();
+ const revision=page.locator('.catalog-revisions article').filter({hasText:brand});
+ await revision.getByRole('button',{name:'查看并复核'}).click();
+ await field('reason','检查修订内容和旧版本后发布');
+ await page.getByRole('button',{name:'确认并记录审计'}).click();
+ await page.locator('.catalog-modal').waitFor({state:'hidden'});
+ await page.getByRole('button',{name:'品牌管理',exact:false}).click();
+ row=page.locator('.catalog-table tbody tr').filter({hasText:brand});
+ assert.match(await row.innerText(),/v3/);
+ await page.screenshot({path:'artifacts/admin-brands.png',fullPage:true});
+ await row.getByRole('button',{name:'下线',exact:true}).click();
+ await field('reason','自动化验收结束，下线演示测试资料');
+ await page.getByRole('button',{name:'确认并记录审计'}).click();
+ await page.locator('.catalog-modal').waitFor({state:'hidden'});
+ assert.match(await row.innerText(),/已下线/);
+ assert.deepEqual(errors,[]);
+ writeFileSync('artifacts/catalog-result.json',JSON.stringify({ok:true,flows:['create category','rename and disable','create brand','second reviewer publish','edit revision','approve revision','archive brand'],pageErrors:errors},null,2));
+ console.log('Catalog admin E2E passed');
+}finally{await browser.close();}

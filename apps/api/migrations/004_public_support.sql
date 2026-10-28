@@ -1,0 +1,16 @@
+ALTER TABLE sessions ADD COLUMN IF NOT EXISTS staff_verified boolean NOT NULL DEFAULT false;
+ALTER TABLE merchants ADD COLUMN IF NOT EXISTS catalog_key text UNIQUE;
+ALTER TABLE profiles ADD COLUMN IF NOT EXISTS brand_id uuid REFERENCES merchants(id);
+ALTER TABLE orders ADD COLUMN IF NOT EXISTS supporter_key text;
+ALTER TABLE orders ADD COLUMN IF NOT EXISTS recipient text NOT NULL DEFAULT 'PLATFORM' CHECK(recipient='PLATFORM');
+ALTER TABLE orders DROP CONSTRAINT IF EXISTS orders_amount_fen_check;
+ALTER TABLE orders ADD CONSTRAINT orders_amount_fen_check CHECK(amount_fen>=100 AND amount_fen<=10000000 AND amount_fen%100=0);
+CREATE TABLE IF NOT EXISTS public_visitors(visitor_key text PRIMARY KEY);
+CREATE TABLE IF NOT EXISTS support_requests(visitor_key text NOT NULL REFERENCES public_visitors(visitor_key),key text NOT NULL,body_hash text NOT NULL,response jsonb NOT NULL,PRIMARY KEY(visitor_key,key));
+CREATE TABLE IF NOT EXISTS brand_follows(merchant_id uuid NOT NULL REFERENCES merchants(id),visitor_key text NOT NULL,created_at timestamptz NOT NULL DEFAULT now(),PRIMARY KEY(merchant_id,visitor_key));
+CREATE INDEX IF NOT EXISTS follows_visitor ON brand_follows(visitor_key);
+CREATE OR REPLACE FUNCTION refunds_disabled() RETURNS trigger LANGUAGE plpgsql AS $$ BEGIN RAISE EXCEPTION 'Refunds are not supported'; END $$;
+DROP TRIGGER IF EXISTS no_new_refund ON refunds;
+CREATE TRIGGER no_new_refund BEFORE INSERT ON refunds FOR EACH ROW EXECUTE FUNCTION refunds_disabled();
+DROP TRIGGER IF EXISTS no_refund_ledger ON rank_ledger;
+CREATE TRIGGER no_refund_ledger BEFORE INSERT ON rank_ledger FOR EACH ROW WHEN (NEW.kind='REFUND') EXECUTE FUNCTION refunds_disabled();

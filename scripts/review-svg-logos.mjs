@@ -1,0 +1,6 @@
+import fs from 'node:fs';import sharp from 'sharp';
+const rows=JSON.parse(fs.readFileSync('artifacts/media-research/all-svg-logo-candidates.json','utf8'));const list=rows.flatMap(r=>r.candidates.map((a,i)=>({...a,key:r.key,index:i}))),valid=[],comps=[];
+for(const a of list){try{const svg=fs.readFileSync(a.file);const png=await sharp(svg,{density:90}).resize(160,65,{fit:'contain',background:'#ccc'}).flatten({background:'#ccc'}).png().toBuffer();const i=valid.length,x=i%5*180,y=Math.floor(i/5)*95;valid.push(a);comps.push({input:png,left:x,top:y});comps.push({input:Buffer.from('<svg width="180" height="25"><text x="2" y="17" font-size="10">'+a.key.replace(/&/g,'&amp;')+' #'+a.index+'</text></svg>'),left:x,top:y+66});}catch{}}
+const height=Math.ceil(valid.length/5)*95;await sharp({create:{width:900,height,channels:3,background:'#eee'}}).composite(comps).jpeg({quality:60}).toFile('artifacts/media-research/svg-candidates.jpg');
+for(let i=0;i<Math.ceil(height/950);i++)await sharp('artifacts/media-research/svg-candidates.jpg').extract({left:0,top:i*950,width:900,height:Math.min(950,height-i*950)}).jpeg({quality:48}).toFile('artifacts/media-research/svg-candidates-'+i+'.jpg');
+console.log(JSON.stringify({candidates:valid.length,sheets:Math.ceil(height/950)}));

@@ -1,0 +1,598 @@
+{
+  "version": "1.0.0",
+  "scope": "纯业务规则向量；不是支付验签、真实并发或生产服务的测试报告。测试逻辑ID用A/B，落地数据库使用merchantCategory UUID。",
+  "cases": [
+    {
+      "id": "cumulative_topup",
+      "description": "追加款累加，不是只取最后一次金额",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-p2",
+          "reference": "p2",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 20000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        },
+        {
+          "eventId": "evt-p3",
+          "reference": "p3",
+          "merchant": "B",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 25000,
+          "committedAt": "2026-10-27T00:03:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "A",
+            "B"
+          ]
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 30000,
+            "refundedFen": 0,
+            "netFen": 30000
+          },
+          "B|headphones": {
+            "grossFen": 25000,
+            "refundedFen": 0,
+            "netFen": 25000
+          }
+        }
+      }
+    },
+    {
+      "id": "duplicate_receipt",
+      "description": "渠道交易重复，即使事件ID不同也只入账一次",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "duplicate-provider-event",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "A"
+          ]
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 10000,
+            "refundedFen": 0,
+            "netFen": 10000
+          }
+        }
+      }
+    },
+    {
+      "id": "same_total_earlier_change",
+      "description": "同额先按当前净额最后改变时间",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "B",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-p2",
+          "reference": "p2",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "B",
+            "A"
+          ]
+        },
+        "balances": {}
+      }
+    },
+    {
+      "id": "refund_changes_tie_time",
+      "description": "A退款降至100元，不能抢占更早已达100元的B",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 30000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-p2",
+          "reference": "p2",
+          "merchant": "B",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        },
+        {
+          "eventId": "evt-r1",
+          "reference": "r1",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "REFUND",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 20000,
+          "committedAt": "2026-10-27T00:03:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "B",
+            "A"
+          ]
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 30000,
+            "refundedFen": 20000,
+            "netFen": 10000
+          }
+        }
+      }
+    },
+    {
+      "id": "full_refund_removed",
+      "description": "全退后金额为零，不占付费榜位",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-r1",
+          "reference": "r1",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "REFUND",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": []
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 10000,
+            "refundedFen": 10000,
+            "netFen": 0
+          }
+        }
+      }
+    },
+    {
+      "id": "category_isolation",
+      "description": "同品牌两个品类各算各的",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "computers",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 50000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-p2",
+          "reference": "p2",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 30000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        },
+        {
+          "eventId": "evt-p3",
+          "reference": "p3",
+          "merchant": "B",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 40000,
+          "committedAt": "2026-10-27T00:03:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "computers": [
+            "A"
+          ],
+          "headphones": [
+            "B",
+            "A"
+          ]
+        },
+        "balances": {
+          "A|computers": {
+            "grossFen": 50000,
+            "refundedFen": 0,
+            "netFen": 50000
+          },
+          "A|headphones": {
+            "grossFen": 30000,
+            "refundedFen": 0,
+            "netFen": 30000
+          }
+        }
+      }
+    },
+    {
+      "id": "failed_and_unverified",
+      "description": "待支付/失败/验签失败不加榜额",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "PENDING",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-p2",
+          "reference": "p2",
+          "merchant": "B",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": false,
+          "amountFen": 20000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        },
+        {
+          "eventId": "evt-p3",
+          "reference": "p3",
+          "merchant": "C",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "FAILED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:03:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": []
+        },
+        "balances": {}
+      }
+    },
+    {
+      "id": "refund_idempotency",
+      "description": "成功部分退款只扣一次，失败退款不扣",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 50000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-r1",
+          "reference": "r1",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "REFUND",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        },
+        {
+          "eventId": "retry-refund",
+          "reference": "r1",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "REFUND",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:03:00.000Z"
+        },
+        {
+          "eventId": "evt-r2",
+          "reference": "r2",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "REFUND",
+          "status": "FAILED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:04:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "A"
+          ]
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 50000,
+            "refundedFen": 10000,
+            "netFen": 40000
+          }
+        }
+      }
+    },
+    {
+      "id": "stable_id_tiebreak",
+      "description": "同额同时间按条目ID确定排序，此测试使用逻辑ID A/B",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "B",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-p2",
+          "reference": "p2",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "A",
+            "B"
+          ]
+        },
+        "balances": {}
+      }
+    },
+    {
+      "id": "no_period_reset",
+      "description": "跨自然月不清零",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 20000,
+          "committedAt": "2026-09-30T23:00:00.000Z"
+        },
+        {
+          "eventId": "evt-p2",
+          "reference": "p2",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-01T00:00:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "A"
+          ]
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 30000,
+            "refundedFen": 0,
+            "netFen": 30000
+          }
+        }
+      }
+    },
+    {
+      "id": "refund_wrong_category_rejected",
+      "description": "退款伪造新类别时拒绝，不从其他类别扣减",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 20000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-r1",
+          "reference": "r1",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "computers",
+          "kind": "REFUND",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "A"
+          ],
+          "computers": []
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 20000,
+            "refundedFen": 0,
+            "netFen": 20000
+          }
+        },
+        "rejected": [
+          "evt-r1"
+        ]
+      }
+    },
+    {
+      "id": "over_refund_rejected",
+      "description": "累计退款不能超过原收款",
+      "events": [
+        {
+          "eventId": "evt-p1",
+          "reference": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "PAYMENT",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 20000,
+          "committedAt": "2026-10-27T00:01:00.000Z"
+        },
+        {
+          "eventId": "evt-r1",
+          "reference": "r1",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "REFUND",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 15000,
+          "committedAt": "2026-10-27T00:02:00.000Z"
+        },
+        {
+          "eventId": "evt-r2",
+          "reference": "r2",
+          "paymentRef": "p1",
+          "merchant": "A",
+          "category": "headphones",
+          "kind": "REFUND",
+          "status": "SUCCEEDED",
+          "verified": true,
+          "amountFen": 10000,
+          "committedAt": "2026-10-27T00:03:00.000Z"
+        }
+      ],
+      "expected": {
+        "boards": {
+          "headphones": [
+            "A"
+          ]
+        },
+        "balances": {
+          "A|headphones": {
+            "grossFen": 20000,
+            "refundedFen": 15000,
+            "netFen": 5000
+          }
+        },
+        "rejected": [
+          "evt-r2"
+        ]
+      }
+    }
+  ]
+}

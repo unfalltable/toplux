@@ -1,0 +1,4 @@
+import fs from 'node:fs';import sharp from 'sharp';
+const a=JSON.parse(fs.readFileSync('artifacts/media-research/approved-extra-media.json','utf8'));
+const list=a.filter(a=>a.logo),comps=[];for(let i=0;i<list.length;i++){const item=list[i];let b=fs.readFileSync(item.logo.file);if(b.toString('utf8',0,500).includes('<svg'))b=Buffer.from(b.toString().replace(/viewbox/g,'viewBox'));const x=i%5*180,y=Math.floor(i/5)*110;try{comps.push({input:await sharp(b).resize(175,75,{fit:'contain',background:'#ddd'}).flatten({background:'#ddd'}).png().toBuffer(),left:x,top:y});comps.push({input:Buffer.from('<svg width="180" height="25"><text x="3" y="18" font-size="11">'+item.key.replace(/&/g,'&amp;')+'</text></svg>'),left:x,top:y+77});}catch{}}
+await sharp({create:{width:900,height:Math.ceil(list.length/5)*110,channels:3,background:'#eee'}}).composite(comps).jpeg({quality:60}).toFile('artifacts/media-research/approved-logos-review.jpg');

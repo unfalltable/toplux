@@ -1,0 +1,17 @@
+APP_ENV=local
+PORT=3100
+DATABASE_URL is optional for local demo; omit it to use .data/postgres (PGlite).
+Set DATABASE_URL to an external PostgreSQL connection string to use the pg adapter.
+Real payment/SMS channels are not implemented and stay disabled.
+No secret is needed for local sandbox.
+
+Production (see infra/production/compose.yml):
+APP_ENV=production
+PUBLIC_ORIGIN=http://149.88.67.92:8080
+PORT=3180
+HOST=0.0.0.0 (default in production; keep the container port private)
+DATABASE_URL_FILE=/run/secrets/db_url (alternative to DATABASE_URL; never configure both)
+SEED_REAL_CATALOG=true (imports only sourced brand profiles; no users, payments or traffic)
+ENABLE_PARTNER_MARKET=false
+Production rejects demo profiles and disables contribution order creation until a real payment adapter is implemented.
+Public admin/login routes are blocked at Nginx pending HTTPS and production authentication.
